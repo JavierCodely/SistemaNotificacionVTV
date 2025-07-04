@@ -1,0 +1,1506 @@
+2025-07-02 00:51:51,637 - INFO - === Iniciando proceso de notificaciones VTV ===
+2025-07-02 00:51:52,107 - INFO - Datos cargados exitosamente: 1 registros
+2025-07-02 00:51:52,118 - INFO - Encontrados 1 vencimientos próximos
+2025-07-02 00:51:52,119 - INFO - Procesando: Juan Perez - AA31BB - +543757686653
+2025-07-02 00:51:52,120 - INFO - Programando mensaje para +543757686653 a las 00:53
+2025-07-02 00:52:12,211 - INFO - Mensaje enviado exitosamente a +543757686653
+2025-07-02 00:52:12,352 - INFO - === Proceso completado ===
+2025-07-02 00:52:12,516 - INFO - Mensajes enviados: 1
+2025-07-02 00:52:12,623 - INFO - Mensajes fallidos: 0
+2025-07-02 00:52:12,662 - INFO - Total procesados: 1
+2025-07-02 00:55:28,264 - INFO - === Iniciando proceso de notificaciones VTV ===
+2025-07-02 00:55:28,692 - INFO - Datos cargados exitosamente: 1 registros
+2025-07-02 00:55:28,699 - INFO - Encontrados 1 vencimientos próximos
+2025-07-02 00:55:28,700 - INFO - Procesando: Juan Perez - AA31BB - +543757686653
+2025-07-02 00:55:28,700 - INFO - Programando mensaje para +543757686653 a las 00:57
+2025-07-02 00:55:47,940 - INFO - Mensaje enviado exitosamente a +543757686653
+2025-07-02 00:55:47,943 - INFO - === Proceso completado ===
+2025-07-02 00:55:47,944 - INFO - Mensajes enviados: 1
+2025-07-02 00:55:47,946 - INFO - Mensajes fallidos: 0
+2025-07-02 00:55:47,947 - INFO - Total procesados: 1
+2025-07-02 01:13:23,597 - INFO - Usando Brave Browser en: C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe
+2025-07-02 01:13:23,599 - INFO - ====== WebDriver manager ======
+2025-07-02 01:13:25,446 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 01:13:25,931 - INFO - About to download new driver from https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_win32.zip
+2025-07-02 01:13:26,272 - INFO - Driver downloading response is 200
+2025-07-02 01:13:36,499 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 01:13:37,517 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 01:13:38,398 - INFO - Driver has been saved in cache [C:\Users\Agus\.wdm\drivers\chromedriver\win64\114.0.5735.90]
+2025-07-02 01:13:45,344 - ERROR - Error al inicializar driver: Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 138.0.7204.97 with binary path C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00A4A813+48355]
+	(No symbol) [0x009DC4B1]
+	(No symbol) [0x008E5358]
+	(No symbol) [0x009061AC]
+	(No symbol) [0x00901EF3]
+	(No symbol) [0x00900579]
+	(No symbol) [0x00930C55]
+	(No symbol) [0x0093093C]
+	(No symbol) [0x0092A536]
+	(No symbol) [0x009082DC]
+	(No symbol) [0x009093DD]
+	GetHandleVerifier [0x00CAAABD+2539405]
+	GetHandleVerifier [0x00CEA78F+2800735]
+	GetHandleVerifier [0x00CE456C+2775612]
+	GetHandleVerifier [0x00AD51E0+616112]
+	(No symbol) [0x009E5F8C]
+	(No symbol) [0x009E2328]
+	(No symbol) [0x009E240B]
+	(No symbol) [0x009D4FF7]
+	BaseThreadInitThunk [0x771B05C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77DE7C5D+237]
+	RtlGetAppContainerNamedObjectPath [0x77DE7C2D+189]
+
+2025-07-02 01:13:45,347 - ERROR - Asegúrate de tener instalado: pip install webdriver-manager
+2025-07-02 01:16:02,005 - INFO - Usando Brave Browser en: C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe
+2025-07-02 01:16:02,007 - INFO - Descargando ChromeDriver compatible con Chromium 138...
+2025-07-02 01:16:02,009 - INFO - ====== WebDriver manager ======
+2025-07-02 01:16:04,454 - INFO - WebDriver version 130.0.6723.116 selected
+2025-07-02 01:16:04,471 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/130.0.6723.116/win32/chromedriver-win32.zip
+2025-07-02 01:16:04,472 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/130.0.6723.116/win32/chromedriver-win32.zip
+2025-07-02 01:16:05,008 - INFO - Driver downloading response is 200
+2025-07-02 01:16:22,272 - INFO - Driver has been saved in cache [C:\Users\Agus\.wdm\drivers\chromedriver\win64\130.0.6723.69]
+2025-07-02 01:16:27,645 - ERROR - Error al inicializar driver: Message: session not created: This version of ChromeDriver only supports Chrome version 130
+Current browser version is 138.0.7204.97 with binary path C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+	GetHandleVerifier [0x00B3EBD3+24307]
+	(No symbol) [0x00AC8D74]
+	(No symbol) [0x009AC323]
+	(No symbol) [0x009DFABF]
+	(No symbol) [0x009DEBA0]
+	(No symbol) [0x009D9D83]
+	(No symbol) [0x009D56B9]
+	(No symbol) [0x00A193B5]
+	(No symbol) [0x00A18B9A]
+	(No symbol) [0x00A0FC26]
+	(No symbol) [0x009E219C]
+	(No symbol) [0x009E311D]
+	GetHandleVerifier [0x00DE8D93+2818227]
+	GetHandleVerifier [0x00E4542E+3196750]
+	GetHandleVerifier [0x00E3D9D2+3165426]
+	GetHandleVerifier [0x00BDDA70+675216]
+	(No symbol) [0x00AD1B3D]
+	(No symbol) [0x00ACEA18]
+	(No symbol) [0x00ACEBB5]
+	(No symbol) [0x00AC1640]
+	BaseThreadInitThunk [0x771B05C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77DE7C5D+237]
+	RtlGetAppContainerNamedObjectPath [0x77DE7C2D+189]
+
+2025-07-02 01:16:27,669 - INFO - Intentando con detección automática de versión...
+2025-07-02 01:16:27,670 - INFO - ====== WebDriver manager ======
+2025-07-02 01:16:29,514 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 01:16:29,844 - INFO - About to download new driver from https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_win32.zip
+2025-07-02 01:16:30,079 - INFO - Driver downloading response is 200
+2025-07-02 01:16:43,406 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 01:16:44,430 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 01:16:45,288 - INFO - Driver has been saved in cache [C:\Users\Agus\.wdm\drivers\chromedriver\win64\114.0.5735.90]
+2025-07-02 01:16:51,409 - ERROR - Error con fallback: Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 138.0.7204.97 with binary path C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00F8A813+48355]
+	(No symbol) [0x00F1C4B1]
+	(No symbol) [0x00E25358]
+	(No symbol) [0x00E461AC]
+	(No symbol) [0x00E41EF3]
+	(No symbol) [0x00E40579]
+	(No symbol) [0x00E70C55]
+	(No symbol) [0x00E7093C]
+	(No symbol) [0x00E6A536]
+	(No symbol) [0x00E482DC]
+	(No symbol) [0x00E493DD]
+	GetHandleVerifier [0x011EAABD+2539405]
+	GetHandleVerifier [0x0122A78F+2800735]
+	GetHandleVerifier [0x0122456C+2775612]
+	GetHandleVerifier [0x010151E0+616112]
+	(No symbol) [0x00F25F8C]
+	(No symbol) [0x00F22328]
+	(No symbol) [0x00F2240B]
+	(No symbol) [0x00F14FF7]
+	BaseThreadInitThunk [0x771B05C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77DE7C5D+237]
+	RtlGetAppContainerNamedObjectPath [0x77DE7C2D+189]
+
+2025-07-02 01:16:51,412 - ERROR - Soluciones posibles:
+2025-07-02 01:16:51,413 - ERROR - 1. Ejecuta: pip install --upgrade webdriver-manager
+2025-07-02 01:16:51,414 - ERROR - 2. Limpia la cache: elimina la carpeta C:\Users\Agus\.wdm
+2025-07-02 01:31:51,328 - INFO - === Iniciando proceso de notificaciones VTV ===
+2025-07-02 01:31:52,525 - INFO - ====== WebDriver manager ======
+2025-07-02 01:31:54,564 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 01:31:54,788 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 01:31:54,943 - INFO - There is no [win64] chromedriver "138.0.7204.92" for browser google-chrome "138.0.7204" in cache
+2025-07-02 01:31:54,944 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 01:31:55,333 - INFO - WebDriver version 138.0.7204.92 selected
+2025-07-02 01:31:55,347 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/138.0.7204.92/win32/chromedriver-win32.zip
+2025-07-02 01:31:55,348 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/138.0.7204.92/win32/chromedriver-win32.zip
+2025-07-02 01:31:55,543 - INFO - Driver downloading response is 200
+2025-07-02 01:32:10,490 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 01:32:10,896 - INFO - Driver has been saved in cache [C:\Users\Agus\.wdm\drivers\chromedriver\win64\138.0.7204.92]
+2025-07-02 01:32:14,629 - INFO - Driver de Chrome inicializado correctamente
+2025-07-02 01:32:14,630 - INFO - Accediendo a WhatsApp Web...
+2025-07-02 01:32:37,842 - INFO - Esperando autenticación...
+2025-07-02 01:33:03,763 - ERROR - ❌ Tiempo agotado esperando autenticación
+2025-07-02 01:33:03,976 - INFO - 🔒 Cerrando navegador...
+2025-07-02 01:34:37,114 - INFO - === Iniciando proceso de notificaciones VTV ===
+2025-07-02 01:34:38,364 - INFO - ====== WebDriver manager ======
+2025-07-02 01:34:41,255 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 01:34:41,431 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 01:34:41,575 - INFO - Driver [C:\Users\Agus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-02 01:34:44,447 - INFO - Driver de Chrome inicializado correctamente
+2025-07-02 01:34:44,448 - INFO - Accediendo a WhatsApp Web...
+2025-07-02 01:34:47,485 - INFO - Esperando autenticación...
+2025-07-02 01:34:58,047 - INFO - ✅ Sesión de WhatsApp ya activa
+2025-07-02 01:35:06,283 - INFO - Datos cargados exitosamente: 1 registros
+2025-07-02 01:35:07,047 - INFO - Encontrados 1 vencimientos próximos
+2025-07-02 01:35:07,883 - INFO - 📱 Procesando: Juan Perez - AA31BB - +543757686653
+2025-07-02 01:35:40,153 - WARNING - ❌ No se encontró contacto para: +543757686653
+2025-07-02 01:35:40,285 - INFO - === Proceso completado ===
+2025-07-02 01:35:40,631 - INFO - ✅ Mensajes enviados: 0
+2025-07-02 01:35:40,913 - INFO - ❌ Mensajes fallidos: 1
+2025-07-02 01:35:41,349 - INFO - 📊 Total procesados: 1
+2025-07-02 01:35:41,463 - INFO - 🔒 Cerrando navegador...
+2025-07-02 01:37:31,118 - INFO - === Iniciando proceso de notificaciones VTV ===
+2025-07-02 01:37:32,872 - INFO - ====== WebDriver manager ======
+2025-07-02 01:37:35,262 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 01:37:35,403 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 01:37:35,527 - INFO - Driver [C:\Users\Agus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-02 01:37:38,718 - INFO - Driver de Chrome inicializado correctamente
+2025-07-02 01:37:38,752 - INFO - Accediendo a WhatsApp Web...
+2025-07-02 01:37:42,488 - INFO - Esperando autenticación...
+2025-07-02 01:37:55,086 - INFO - ✅ Sesión de WhatsApp ya activa
+2025-07-02 01:37:57,210 - INFO - Datos cargados exitosamente: 1 registros
+2025-07-02 01:37:57,231 - INFO - Encontrados 1 vencimientos próximos
+2025-07-02 01:37:57,234 - INFO - 📱 Procesando: Juan Perez - AA31BB - +543757686653
+2025-07-02 01:38:24,053 - WARNING - ❌ No se encontró contacto para: +543757686653
+2025-07-02 01:38:24,222 - INFO - === Proceso completado ===
+2025-07-02 01:38:24,224 - INFO - ✅ Mensajes enviados: 0
+2025-07-02 01:38:24,228 - INFO - ❌ Mensajes fallidos: 1
+2025-07-02 01:38:24,231 - INFO - 📊 Total procesados: 1
+2025-07-02 01:38:24,233 - INFO - 🔒 Cerrando navegador...
+2025-07-02 01:39:46,225 - INFO - === Iniciando proceso de notificaciones VTV ===
+2025-07-02 01:39:47,319 - INFO - ====== WebDriver manager ======
+2025-07-02 01:39:49,251 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 01:39:49,391 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 01:39:49,544 - INFO - Driver [C:\Users\Agus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-02 01:39:52,212 - INFO - Driver de Chrome inicializado correctamente
+2025-07-02 01:39:52,214 - INFO - Accediendo a WhatsApp Web...
+2025-07-02 01:39:54,684 - INFO - Esperando autenticación...
+2025-07-02 01:40:04,051 - INFO - ✅ Sesión de WhatsApp ya activa
+2025-07-02 01:40:04,804 - INFO - Datos cargados exitosamente: 1 registros
+2025-07-02 01:40:04,809 - INFO - Encontrados 1 vencimientos próximos
+2025-07-02 01:40:04,810 - INFO - 📱 Procesando: Juan Perez - AA31BB - +543757686653
+2025-07-02 01:40:31,396 - WARNING - ❌ No se encontró contacto para: +543757686653
+2025-07-02 01:40:31,397 - INFO - === Proceso completado ===
+2025-07-02 01:40:31,398 - INFO - ✅ Mensajes enviados: 0
+2025-07-02 01:40:31,398 - INFO - ❌ Mensajes fallidos: 1
+2025-07-02 01:40:31,399 - INFO - 📊 Total procesados: 1
+2025-07-02 01:40:31,400 - INFO - 🔒 Cerrando navegador...
+2025-07-02 01:41:20,929 - INFO - === Iniciando proceso de notificaciones VTV ===
+2025-07-02 01:41:21,896 - INFO - ====== WebDriver manager ======
+2025-07-02 01:41:23,286 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 01:41:23,413 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 01:41:23,542 - INFO - Driver [C:\Users\Agus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-02 01:41:26,503 - INFO - Driver de Chrome inicializado correctamente
+2025-07-02 01:41:26,504 - INFO - Accediendo a WhatsApp Web...
+2025-07-02 01:41:28,951 - INFO - Esperando autenticación...
+2025-07-02 01:41:38,831 - INFO - ✅ Sesión de WhatsApp ya activa
+2025-07-02 01:41:39,622 - INFO - Datos cargados exitosamente: 1 registros
+2025-07-02 01:41:39,636 - INFO - Encontrados 1 vencimientos próximos
+2025-07-02 01:41:39,639 - INFO - 📱 Procesando: Juan Perez - AA31BB - +543757644623
+2025-07-02 01:42:01,183 - INFO - ✅ Contacto encontrado: +543757644623
+2025-07-02 01:42:01,404 - ERROR - ❌ Error al enviar mensaje: Message: unknown error: ChromeDriver only supports characters in the BMP
+  (Session info: chrome=138.0.7204.97)
+Stacktrace:
+	GetHandleVerifier [0x0xe54553+62419]
+	GetHandleVerifier [0x0xe54594+62484]
+	(No symbol) [0x0xc92133]
+	(No symbol) [0x0xd165d6]
+	(No symbol) [0x0xcd52bb]
+	(No symbol) [0x0xcd48dd]
+	(No symbol) [0x0xcff46c]
+	(No symbol) [0x0xcd0054]
+	(No symbol) [0x0xcff6e4]
+	(No symbol) [0x0xd2087a]
+	(No symbol) [0x0xcff266]
+	(No symbol) [0x0xcce852]
+	(No symbol) [0x0xccf6f4]
+	GetHandleVerifier [0x0x10c4833+2619059]
+	GetHandleVerifier [0x0x10bfc4a+2599626]
+	GetHandleVerifier [0x0xe7b0fa+221050]
+	GetHandleVerifier [0x0xe6b378+156152]
+	GetHandleVerifier [0x0xe71d2d+183213]
+	GetHandleVerifier [0x0xe5c438+94904]
+	GetHandleVerifier [0x0xe5c5c2+95298]
+	GetHandleVerifier [0x0xe4771a+9626]
+	BaseThreadInitThunk [0x0x771b05c9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77de7c5d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x77de7c2d+189]
+
+2025-07-02 01:42:01,407 - INFO - === Proceso completado ===
+2025-07-02 01:42:01,408 - INFO - ✅ Mensajes enviados: 0
+2025-07-02 01:42:01,409 - INFO - ❌ Mensajes fallidos: 1
+2025-07-02 01:42:01,409 - INFO - 📊 Total procesados: 1
+2025-07-02 01:42:01,410 - INFO - 🔒 Cerrando navegador...
+2025-07-02 01:47:04,432 - INFO - === Iniciando proceso de notificaciones VTV ===
+2025-07-02 01:47:05,521 - INFO - ====== WebDriver manager ======
+2025-07-02 01:47:07,438 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 01:47:07,596 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 01:47:07,714 - INFO - Driver [C:\Users\Agus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-02 01:47:10,295 - INFO - Driver de Chrome inicializado correctamente
+2025-07-02 01:47:10,308 - INFO - Accediendo a WhatsApp Web...
+2025-07-02 01:47:13,963 - INFO - Esperando autenticación...
+2025-07-02 01:47:24,753 - INFO - Sesión de WhatsApp ya activa
+2025-07-02 01:47:26,098 - INFO - Datos cargados exitosamente: 1 registros
+2025-07-02 01:47:26,113 - INFO - Encontrados 1 vencimientos próximos
+2025-07-02 01:47:26,116 - INFO - Procesando: Juan Perez - AA31BB - +543757644623
+2025-07-02 01:47:47,513 - INFO - Contacto encontrado: +543757644623
+2025-07-02 01:47:53,282 - INFO - Mensaje enviado correctamente
+2025-07-02 01:47:53,283 - INFO - Mensaje enviado exitosamente a +543757644623
+2025-07-02 01:47:53,284 - INFO - === Proceso completado ===
+2025-07-02 01:47:53,285 - INFO - Mensajes enviados: 1
+2025-07-02 01:47:53,285 - INFO - Mensajes fallidos: 0
+2025-07-02 01:47:53,286 - INFO - Total procesados: 1
+2025-07-02 01:47:53,286 - INFO - Cerrando navegador...
+2025-07-02 01:48:54,907 - INFO - === Iniciando proceso de notificaciones VTV ===
+2025-07-02 01:48:56,076 - INFO - ====== WebDriver manager ======
+2025-07-02 01:48:57,993 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 01:48:58,128 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 01:48:58,252 - INFO - Driver [C:\Users\Agus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-02 01:49:00,639 - INFO - Driver de Chrome inicializado correctamente
+2025-07-02 01:49:00,640 - INFO - Accediendo a WhatsApp Web...
+2025-07-02 01:49:03,151 - INFO - Esperando autenticación...
+2025-07-02 01:49:12,749 - INFO - Sesión de WhatsApp ya activa
+2025-07-02 01:49:13,492 - INFO - Datos cargados exitosamente: 1 registros
+2025-07-02 01:49:13,504 - INFO - Encontrados 1 vencimientos próximos
+2025-07-02 01:49:13,511 - INFO - Procesando: Juan Perez - AA31BB - +543757644623
+2025-07-02 01:49:34,758 - INFO - Contacto encontrado: +543757644623
+2025-07-02 01:49:40,766 - INFO - Mensaje enviado correctamente
+2025-07-02 01:49:40,787 - INFO - Mensaje enviado exitosamente a +543757644623
+2025-07-02 01:49:40,790 - INFO - === Proceso completado ===
+2025-07-02 01:49:40,794 - INFO - Mensajes enviados: 1
+2025-07-02 01:49:40,800 - INFO - Mensajes fallidos: 0
+2025-07-02 01:49:40,809 - INFO - Total procesados: 1
+2025-07-02 01:49:40,839 - INFO - Cerrando navegador...
+2025-07-02 01:50:29,669 - INFO - === Iniciando proceso de notificaciones VTV ===
+2025-07-02 01:50:30,975 - INFO - ====== WebDriver manager ======
+2025-07-02 01:50:32,332 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 01:50:32,462 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 01:50:32,599 - INFO - Driver [C:\Users\Agus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-02 01:50:35,306 - INFO - Driver de Chrome inicializado correctamente
+2025-07-02 01:50:35,314 - INFO - Accediendo a WhatsApp Web...
+2025-07-02 01:50:38,347 - INFO - Esperando autenticación...
+2025-07-02 01:50:48,087 - INFO - Sesión de WhatsApp ya activa
+2025-07-02 01:50:49,656 - INFO - Datos cargados exitosamente: 1 registros
+2025-07-02 01:50:49,676 - INFO - Encontrados 1 vencimientos próximos
+2025-07-02 01:50:49,687 - INFO - Procesando: Juan Perez - AA31BB - +543757644623
+2025-07-02 01:51:11,314 - INFO - Contacto encontrado: +543757644623
+2025-07-02 01:51:17,437 - INFO - Mensaje enviado correctamente
+2025-07-02 01:51:17,437 - INFO - Mensaje enviado exitosamente a +543757644623
+2025-07-02 01:51:17,438 - INFO - === Proceso completado ===
+2025-07-02 01:51:17,439 - INFO - Mensajes enviados: 1
+2025-07-02 01:51:17,439 - INFO - Mensajes fallidos: 0
+2025-07-02 01:51:17,440 - INFO - Total procesados: 1
+2025-07-02 01:51:17,440 - INFO - Cerrando navegador...
+2025-07-02 01:58:07,270 - INFO - === Iniciando proceso de notificaciones VTV ===
+2025-07-02 01:58:08,261 - INFO - ====== WebDriver manager ======
+2025-07-02 01:58:09,789 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 01:58:09,909 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 01:58:10,030 - INFO - Driver [C:\Users\Agus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-02 01:58:13,043 - INFO - Driver de Chrome inicializado correctamente
+2025-07-02 01:58:13,052 - INFO - Accediendo a WhatsApp Web...
+2025-07-02 01:58:15,685 - INFO - Esperando autenticación...
+2025-07-02 01:58:25,502 - INFO - Sesión de WhatsApp ya activa
+2025-07-02 01:58:27,796 - INFO - Datos cargados exitosamente: 1 registros
+2025-07-02 01:58:27,816 - INFO - Encontrados 1 vencimientos próximos
+2025-07-02 01:58:27,819 - INFO - Procesando: Juan Perez - AA31BB - +543757644623
+2025-07-02 01:58:48,803 - INFO - Contacto encontrado: +543757644623
+2025-07-02 01:58:54,575 - INFO - Mensaje enviado correctamente
+2025-07-02 01:58:54,576 - INFO - Mensaje enviado exitosamente a +543757644623
+2025-07-02 01:58:54,577 - INFO - === Proceso completado ===
+2025-07-02 01:58:54,577 - INFO - Mensajes enviados: 1
+2025-07-02 01:58:54,578 - INFO - Mensajes fallidos: 0
+2025-07-02 01:58:54,578 - INFO - Total procesados: 1
+2025-07-02 01:58:54,579 - INFO - Cerrando navegador...
+2025-07-02 01:59:36,300 - INFO - === Iniciando proceso de notificaciones VTV ===
+2025-07-02 01:59:37,462 - INFO - ====== WebDriver manager ======
+2025-07-02 01:59:39,403 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 01:59:39,538 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 01:59:39,650 - INFO - Driver [C:\Users\Agus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-02 01:59:42,275 - INFO - Driver de Chrome inicializado correctamente
+2025-07-02 01:59:42,278 - INFO - Accediendo a WhatsApp Web...
+2025-07-02 01:59:44,557 - INFO - Esperando autenticación...
+2025-07-02 01:59:55,795 - INFO - Sesión de WhatsApp ya activa
+2025-07-02 01:59:56,723 - INFO - Datos cargados exitosamente: 3 registros
+2025-07-02 01:59:56,729 - INFO - Encontrados 3 vencimientos próximos
+2025-07-02 01:59:56,731 - INFO - Procesando: Juan Perez - AA31BB - +543757644623
+2025-07-02 02:00:17,925 - INFO - Contacto encontrado: +543757644623
+2025-07-02 02:00:23,763 - INFO - Mensaje enviado correctamente
+2025-07-02 02:00:23,763 - INFO - Mensaje enviado exitosamente a +543757644623
+2025-07-02 02:00:23,764 - INFO - Esperando 5 segundos...
+2025-07-02 02:00:28,766 - INFO - Procesando: Pedro - afaafa - +543757424242
+2025-07-02 02:00:53,734 - WARNING - No se encontró contacto para: +543757424242
+2025-07-02 02:00:53,735 - INFO - Procesando: JFJF - UTTT5 - +543757644623
+2025-07-02 02:01:18,347 - WARNING - No se encontró contacto para: +543757644623
+2025-07-02 02:01:18,348 - INFO - === Proceso completado ===
+2025-07-02 02:01:18,348 - INFO - Mensajes enviados: 1
+2025-07-02 02:01:18,349 - INFO - Mensajes fallidos: 2
+2025-07-02 02:01:18,349 - INFO - Total procesados: 3
+2025-07-02 02:01:18,350 - INFO - Cerrando navegador...
+2025-07-02 02:03:27,543 - INFO - === Iniciando proceso de notificaciones VTV ===
+2025-07-02 02:03:29,031 - INFO - ====== WebDriver manager ======
+2025-07-02 02:03:30,444 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 02:03:30,576 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 02:03:30,693 - INFO - Driver [C:\Users\Agus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-02 02:03:32,999 - INFO - Driver de Chrome inicializado correctamente
+2025-07-02 02:03:33,040 - INFO - Accediendo a WhatsApp Web...
+2025-07-02 02:03:35,341 - INFO - Esperando autenticación...
+2025-07-02 02:03:45,371 - INFO - Sesión de WhatsApp ya activa
+2025-07-02 02:03:46,270 - INFO - Datos cargados exitosamente: 3 registros
+2025-07-02 02:03:46,296 - INFO - Encontrados 2 vencimientos próximos
+2025-07-02 02:03:46,303 - INFO - Procesando: Juan Perez - AA31BB - +543757644623
+2025-07-02 02:04:08,126 - INFO - Contacto encontrado: +543757644623
+2025-07-02 02:04:14,566 - INFO - Mensaje enviado correctamente
+2025-07-02 02:04:14,567 - INFO - Mensaje enviado exitosamente a +543757644623
+2025-07-02 02:04:14,568 - INFO - Esperando 5 segundos...
+2025-07-02 02:04:19,570 - INFO - Procesando: JFJF - UTTT5 - +543757644623
+2025-07-02 02:04:40,774 - INFO - Contacto encontrado: +543757644623
+2025-07-02 02:04:46,531 - INFO - Mensaje enviado correctamente
+2025-07-02 02:04:46,532 - INFO - Mensaje enviado exitosamente a +543757644623
+2025-07-02 02:04:46,533 - INFO - === Proceso completado ===
+2025-07-02 02:04:46,533 - INFO - Mensajes enviados: 2
+2025-07-02 02:04:46,533 - INFO - Mensajes fallidos: 0
+2025-07-02 02:04:46,534 - INFO - Total procesados: 2
+2025-07-02 02:04:46,534 - INFO - Cerrando navegador...
+2025-07-02 02:06:16,231 - INFO - === Iniciando proceso de notificaciones VTV ===
+2025-07-02 02:06:17,317 - INFO - ====== WebDriver manager ======
+2025-07-02 02:06:19,260 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 02:06:19,408 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 02:06:19,540 - INFO - Driver [C:\Users\Agus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-02 02:06:22,086 - INFO - Driver de Chrome inicializado correctamente
+2025-07-02 02:06:22,101 - INFO - Accediendo a WhatsApp Web...
+2025-07-02 02:06:24,361 - INFO - Esperando autenticación...
+2025-07-02 02:06:35,825 - INFO - Sesión de WhatsApp ya activa
+2025-07-02 02:06:36,436 - INFO - Datos cargados exitosamente: 3 registros
+2025-07-02 02:06:36,444 - INFO - Encontrados 3 vencimientos próximos
+2025-07-02 02:06:36,445 - INFO - Procesando: Juan Perez - AA31BB - +543757644623
+2025-07-02 02:07:00,797 - INFO - Contacto encontrado: +543757644623
+2025-07-02 02:07:06,917 - INFO - Mensaje enviado correctamente
+2025-07-02 02:07:06,918 - INFO - Mensaje enviado exitosamente a +543757644623
+2025-07-02 02:07:06,919 - INFO - Esperando 5 segundos...
+2025-07-02 02:07:11,920 - INFO - Procesando: Pedro - afaafa - +543757424242
+2025-07-02 02:07:37,960 - WARNING - No se encontró contacto para: +543757424242
+2025-07-02 02:07:37,962 - INFO - Procesando: JFJF - UTTT5 - +543757644623
+2025-07-02 02:08:02,269 - WARNING - No se encontró contacto para: +543757644623
+2025-07-02 02:08:02,269 - INFO - === Proceso completado ===
+2025-07-02 02:08:02,270 - INFO - Mensajes enviados: 1
+2025-07-02 02:08:02,271 - INFO - Mensajes fallidos: 2
+2025-07-02 02:08:02,271 - INFO - Total procesados: 3
+2025-07-02 02:08:02,271 - INFO - Cerrando navegador...
+2025-07-02 02:10:39,511 - INFO - === Iniciando proceso de notificaciones VTV ===
+2025-07-02 02:10:40,622 - INFO - ====== WebDriver manager ======
+2025-07-02 02:10:42,591 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 02:10:42,783 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 02:10:42,929 - INFO - Driver [C:\Users\Agus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-02 02:10:45,872 - INFO - Driver de Chrome inicializado correctamente
+2025-07-02 02:10:46,186 - INFO - Accediendo a WhatsApp Web...
+2025-07-02 02:10:48,883 - INFO - Esperando autenticación...
+2025-07-02 02:10:59,775 - INFO - Sesión de WhatsApp ya activa
+2025-07-02 02:11:01,534 - INFO - Datos cargados exitosamente: 3 registros
+2025-07-02 02:11:01,577 - INFO - Encontrados 3 vencimientos próximos
+2025-07-02 02:11:01,593 - INFO - Procesando: Juan Perez - AA31BB - +543757644623
+2025-07-02 02:11:23,207 - INFO - Contacto encontrado: +543757644623
+2025-07-02 02:11:29,148 - INFO - Mensaje enviado correctamente
+2025-07-02 02:11:29,153 - INFO - Mensaje enviado exitosamente a +543757644623
+2025-07-02 02:11:29,154 - INFO - Esperando 5 segundos...
+2025-07-02 02:11:34,156 - INFO - Procesando: Pedro - afaafa - +543757424242
+2025-07-02 02:11:59,260 - WARNING - No se encontró contacto para: +543757424242
+2025-07-02 02:11:59,261 - INFO - Procesando: Yami  - AA31BB - +543757677081
+2025-07-02 02:12:23,768 - WARNING - No se encontró contacto para: +543757677081
+2025-07-02 02:12:23,769 - INFO - === Proceso completado ===
+2025-07-02 02:12:23,770 - INFO - Mensajes enviados: 1
+2025-07-02 02:12:23,770 - INFO - Mensajes fallidos: 2
+2025-07-02 02:12:23,771 - INFO - Total procesados: 3
+2025-07-02 02:12:23,771 - INFO - Cerrando navegador...
+2025-07-02 02:16:10,658 - INFO - === Iniciando proceso de notificaciones VTV ===
+2025-07-02 02:16:11,770 - INFO - ====== WebDriver manager ======
+2025-07-02 02:16:13,734 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 02:16:13,874 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 02:16:14,034 - INFO - Driver [C:\Users\Agus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-02 02:16:16,879 - INFO - Driver de Chrome inicializado correctamente
+2025-07-02 02:16:16,880 - INFO - Accediendo a WhatsApp Web...
+2025-07-02 02:16:19,320 - INFO - Esperando autenticación...
+2025-07-02 02:16:29,916 - INFO - Sesión de WhatsApp ya activa
+2025-07-02 02:16:31,304 - INFO - Datos cargados exitosamente: 3 registros
+2025-07-02 02:16:31,320 - INFO - Encontrados 3 vencimientos próximos
+2025-07-02 02:16:31,330 - INFO - Procesando: Juan Perez - AA31BB - +543757644623
+2025-07-02 02:16:52,541 - INFO - Contacto encontrado: +543757644623
+2025-07-02 02:16:58,672 - INFO - Mensaje enviado correctamente
+2025-07-02 02:16:58,673 - INFO - Mensaje enviado exitosamente a +543757644623
+2025-07-02 02:16:58,674 - INFO - Esperando 120 segundos...
+2025-07-02 02:18:58,020 - INFO - Cerrando navegador...
+2025-07-02 02:19:03,058 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020F3B81EE90>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/6c68b78644af2d18481c2396adf027aa
+2025-07-02 02:19:05,136 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020F3BC84690>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/6c68b78644af2d18481c2396adf027aa
+2025-07-02 02:19:07,152 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020F3BC41BA0>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/6c68b78644af2d18481c2396adf027aa
+2025-07-02 02:19:31,967 - INFO - === Iniciando proceso de notificaciones VTV ===
+2025-07-02 02:19:32,964 - INFO - ====== WebDriver manager ======
+2025-07-02 02:19:34,406 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 02:19:34,557 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 02:19:34,748 - INFO - Driver [C:\Users\Agus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-02 02:19:38,046 - INFO - Driver de Chrome inicializado correctamente
+2025-07-02 02:19:38,053 - INFO - Accediendo a WhatsApp Web...
+2025-07-02 02:19:40,602 - INFO - Esperando autenticación...
+2025-07-02 02:19:52,110 - INFO - Sesión de WhatsApp ya activa
+2025-07-02 02:19:53,030 - INFO - Datos cargados exitosamente: 3 registros
+2025-07-02 02:19:53,051 - INFO - Encontrados 3 vencimientos próximos
+2025-07-02 02:19:53,119 - INFO - Procesando: Juan Perez - AA31BB - +543757644623
+2025-07-02 02:20:14,350 - INFO - Contacto encontrado: +543757644623
+2025-07-02 02:20:21,344 - INFO - Mensaje enviado correctamente
+2025-07-02 02:20:21,345 - INFO - Mensaje enviado exitosamente a +543757644623
+2025-07-02 02:20:21,346 - INFO - Esperando 120 segundos...
+2025-07-02 02:21:39,950 - INFO - Cerrando navegador...
+2025-07-02 02:21:44,989 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024FFF6BEE90>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/099e4445a6cf43d44e07c65f9366f1a7
+2025-07-02 02:21:47,013 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024FFFB24690>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/099e4445a6cf43d44e07c65f9366f1a7
+2025-07-02 02:21:49,049 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024FFFAE1BA0>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/099e4445a6cf43d44e07c65f9366f1a7
+2025-07-02 02:22:28,013 - INFO - === Iniciando proceso de notificaciones VTV ===
+2025-07-02 02:22:29,201 - INFO - ====== WebDriver manager ======
+2025-07-02 02:22:31,126 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 02:22:31,296 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 02:22:31,435 - INFO - Driver [C:\Users\Agus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-02 02:22:34,086 - INFO - Driver de Chrome inicializado correctamente
+2025-07-02 02:22:34,088 - INFO - Accediendo a WhatsApp Web...
+2025-07-02 02:22:36,474 - INFO - Esperando autenticación...
+2025-07-02 02:22:46,395 - INFO - Sesión de WhatsApp ya activa
+2025-07-02 02:22:47,188 - INFO - Datos cargados exitosamente: 3 registros
+2025-07-02 02:22:47,198 - INFO - Encontrados 3 vencimientos próximos
+2025-07-02 02:22:47,202 - INFO - Procesando: Juan Perez - AA31BB - +543757644623
+2025-07-02 02:23:08,377 - INFO - Contacto encontrado: +543757644623
+2025-07-02 02:23:14,460 - INFO - Mensaje enviado correctamente
+2025-07-02 02:23:14,460 - INFO - Mensaje enviado exitosamente a +543757644623
+2025-07-02 02:23:14,461 - INFO - Esperando 120 segundos...
+2025-07-02 02:23:20,976 - INFO - Cerrando navegador...
+2025-07-02 02:23:26,011 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002119D10EE90>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/c87642d1bce4bd8d247990730e6bf952
+2025-07-02 02:23:28,035 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002119D574690>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/c87642d1bce4bd8d247990730e6bf952
+2025-07-02 02:23:30,061 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002119D531BA0>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/c87642d1bce4bd8d247990730e6bf952
+2025-07-02 02:23:59,038 - INFO - === Iniciando proceso de notificaciones VTV ===
+2025-07-02 02:24:00,023 - INFO - ====== WebDriver manager ======
+2025-07-02 02:24:01,934 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 02:24:02,139 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 02:24:02,368 - INFO - Driver [C:\Users\Agus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-02 02:24:04,737 - INFO - Driver de Chrome inicializado correctamente
+2025-07-02 02:24:04,738 - INFO - Accediendo a WhatsApp Web...
+2025-07-02 02:24:07,144 - INFO - Esperando autenticación...
+2025-07-02 02:24:16,738 - INFO - Sesión de WhatsApp ya activa
+2025-07-02 02:24:17,615 - INFO - Datos cargados exitosamente: 3 registros
+2025-07-02 02:24:17,620 - INFO - Encontrados 3 vencimientos próximos
+2025-07-02 02:24:17,621 - INFO - Procesando: Juan Perez - AA31BB - +543757644623
+2025-07-02 02:24:38,620 - INFO - Contacto encontrado: +543757644623
+2025-07-02 02:24:44,555 - INFO - Mensaje enviado correctamente
+2025-07-02 02:24:44,555 - INFO - Mensaje enviado exitosamente a +543757644623
+2025-07-02 02:24:44,556 - INFO - Esperando 3 segundos...
+2025-07-02 02:24:47,558 - INFO - Procesando: Pedro - afaafa - +543757424242
+2025-07-02 02:25:12,196 - WARNING - No se encontró contacto para: +543757424242
+2025-07-02 02:25:12,198 - INFO - Procesando: Yami  - AA31BB - +543757677081
+2025-07-02 02:25:36,290 - WARNING - No se encontró contacto para: +543757677081
+2025-07-02 02:25:36,291 - INFO - === Proceso completado ===
+2025-07-02 02:25:36,291 - INFO - Mensajes enviados: 1
+2025-07-02 02:25:36,292 - INFO - Mensajes fallidos: 2
+2025-07-02 02:25:36,292 - INFO - Total procesados: 3
+2025-07-02 02:25:36,293 - INFO - Cerrando navegador...
+2025-07-02 02:51:17,954 - INFO - === Iniciando proceso de notificaciones VTV ===
+2025-07-02 02:51:19,077 - INFO - ====== WebDriver manager ======
+2025-07-02 02:51:20,998 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 02:51:21,178 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 02:51:21,317 - INFO - Driver [C:\Users\Agus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-02 02:51:24,335 - INFO - Driver de Chrome inicializado correctamente
+2025-07-02 02:51:24,336 - INFO - Accediendo a WhatsApp Web...
+2025-07-02 02:51:28,286 - INFO - Esperando autenticación...
+2025-07-02 02:51:44,802 - INFO - Sesión de WhatsApp ya activa
+2025-07-02 02:51:45,816 - INFO - Datos cargados exitosamente: 3 registros
+2025-07-02 02:51:45,831 - INFO - Encontrados 3 vencimientos próximos
+2025-07-02 02:51:45,834 - INFO - Procesando: Juan Perez - AA31BB - +5437957644623
+2025-07-02 02:51:45,836 - INFO - Intentando buscar: +5437957644623
+2025-07-02 02:52:17,835 - INFO - Intentando buscar: 5437957644623
+2025-07-02 02:52:49,142 - INFO - Intentando buscar: +5437957644623
+2025-07-02 02:53:07,697 - INFO - Cerrando navegador...
+2025-07-02 02:53:12,746 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020D0739AE90>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/4665def56f49e2b5f5f83455d99043ed
+2025-07-02 02:53:14,781 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020D07805950>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/4665def56f49e2b5f5f83455d99043ed
+2025-07-02 02:53:16,795 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020D077A9CD0>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/4665def56f49e2b5f5f83455d99043ed
+2025-07-02 02:54:15,879 - INFO - === Iniciando proceso de notificaciones VTV ===
+2025-07-02 02:54:17,064 - INFO - ====== WebDriver manager ======
+2025-07-02 02:54:19,447 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 02:54:19,608 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 02:54:19,753 - INFO - Driver [C:\Users\Agus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-02 02:54:24,693 - INFO - Driver de Chrome inicializado correctamente
+2025-07-02 02:54:24,700 - INFO - Accediendo a WhatsApp Web...
+2025-07-02 02:54:44,498 - INFO - Esperando autenticación...
+2025-07-02 02:54:51,394 - INFO - Sesión de WhatsApp ya activa
+2025-07-02 02:54:55,034 - INFO - Datos cargados exitosamente: 3 registros
+2025-07-02 02:54:55,058 - INFO - Encontrados 3 vencimientos próximos
+2025-07-02 02:54:55,116 - INFO - Procesando: Juan Perez - AA31BB - +543757644623
+2025-07-02 02:55:17,568 - INFO - Contacto encontrado: +543757644623
+2025-07-02 02:55:23,926 - INFO - Mensaje enviado correctamente
+2025-07-02 02:55:23,926 - INFO - Mensaje enviado exitosamente a +543757644623
+2025-07-02 02:55:23,927 - INFO - Esperando 3 segundos...
+2025-07-02 02:55:27,147 - INFO - Procesando: Pedro - afaafa - +543757424242
+2025-07-02 02:55:52,797 - WARNING - No se encontró contacto para: +543757424242
+2025-07-02 02:55:52,799 - INFO - Procesando: Yami  - AA31BB - +543757677081
+2025-07-02 02:56:14,159 - INFO - Contacto encontrado: +543757677081
+2025-07-02 02:56:20,466 - INFO - Mensaje enviado correctamente
+2025-07-02 02:56:20,467 - INFO - Mensaje enviado exitosamente a +543757677081
+2025-07-02 02:56:20,467 - INFO - === Proceso completado ===
+2025-07-02 02:56:20,468 - INFO - Mensajes enviados: 2
+2025-07-02 02:56:20,468 - INFO - Mensajes fallidos: 1
+2025-07-02 02:56:20,469 - INFO - Total procesados: 3
+2025-07-02 02:56:20,469 - INFO - Cerrando navegador...
+2025-07-02 03:00:20,898 - INFO - === Iniciando proceso de notificaciones VTV ===
+2025-07-02 03:00:21,999 - INFO - ====== WebDriver manager ======
+2025-07-02 03:00:23,895 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 03:00:24,055 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 03:00:24,275 - INFO - Driver [C:\Users\Agus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-02 03:00:27,610 - INFO - Driver de Chrome inicializado correctamente
+2025-07-02 03:00:27,795 - INFO - Accediendo a WhatsApp Web...
+2025-07-02 03:00:30,219 - INFO - Esperando autenticación...
+2025-07-02 03:00:48,745 - INFO - Sesión de WhatsApp ya activa
+2025-07-02 03:00:51,979 - INFO - Datos cargados exitosamente: 5 registros
+2025-07-02 03:00:52,003 - INFO - Encontrados 4 vencimientos próximos
+2025-07-02 03:00:52,008 - INFO - Procesando: Juan Perez - AA31BB - +543757644623
+2025-07-02 03:01:13,100 - INFO - Contacto encontrado: +543757644623
+2025-07-02 03:01:19,829 - INFO - Mensaje enviado correctamente
+2025-07-02 03:01:19,830 - INFO - Mensaje enviado exitosamente a +543757644623
+2025-07-02 03:01:19,830 - INFO - Esperando 3 segundos...
+2025-07-02 03:01:22,832 - INFO - Procesando: Pedro - afaafa - +543757424242
+2025-07-02 03:01:47,597 - WARNING - No se encontró contacto para: +543757424242
+2025-07-02 03:01:47,599 - INFO - Procesando: Yami  - AA31BB - +543757677081
+2025-07-02 03:02:11,877 - WARNING - No se encontró contacto para: +543757677081
+2025-07-02 03:02:11,878 - INFO - Procesando: ggagag - 52d3 - +543757686653
+2025-07-02 03:02:36,069 - WARNING - No se encontró contacto para: +543757686653
+2025-07-02 03:02:36,069 - INFO - === Proceso completado ===
+2025-07-02 03:02:36,070 - INFO - Mensajes enviados: 1
+2025-07-02 03:02:36,070 - INFO - Mensajes fallidos: 3
+2025-07-02 03:02:36,071 - INFO - Total procesados: 4
+2025-07-02 03:02:36,071 - INFO - Cerrando navegador...
+2025-07-02 03:06:38,340 - INFO - === Iniciando proceso de notificaciones VTV ===
+2025-07-02 03:06:39,462 - INFO - ====== WebDriver manager ======
+2025-07-02 03:06:41,355 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 03:06:41,531 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 03:06:41,649 - INFO - Driver [C:\Users\Agus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-02 03:06:45,118 - INFO - Driver de Chrome inicializado correctamente
+2025-07-02 03:06:45,120 - INFO - Accediendo a WhatsApp Web...
+2025-07-02 03:06:47,742 - INFO - Esperando autenticación...
+2025-07-02 03:06:59,040 - INFO - Sesión de WhatsApp ya activa
+2025-07-02 03:07:00,879 - INFO - Datos cargados exitosamente: 5 registros
+2025-07-02 03:07:00,901 - INFO - Encontrados 4 vencimientos próximos
+2025-07-02 03:07:00,917 - INFO - Procesando: Juan Perez - AA31BB - +543757644623
+2025-07-02 03:07:00,937 - INFO - Buscando contacto: +543757644623
+2025-07-02 03:07:12,642 - INFO - Chat abierto correctamente para: +543757644623
+2025-07-02 03:07:19,572 - INFO - Mensaje enviado correctamente
+2025-07-02 03:07:19,573 - INFO - Mensaje enviado exitosamente a +543757644623
+2025-07-02 03:07:19,573 - INFO - Esperando 3 segundos...
+2025-07-02 03:07:22,575 - INFO - Procesando: Pedro - afaafa - +543757424242
+2025-07-02 03:07:22,577 - INFO - Buscando contacto: +543757424242
+2025-07-02 03:07:45,003 - WARNING - No se encontró contacto para: +543757424242
+2025-07-02 03:07:45,005 - INFO - Procesando: Yami  - AA31BB - +543757677081
+2025-07-02 03:07:45,006 - INFO - Buscando contacto: +543757677081
+2025-07-02 03:07:55,480 - INFO - Chat abierto correctamente para: +543757677081
+2025-07-02 03:08:02,900 - INFO - Mensaje enviado correctamente
+2025-07-02 03:08:02,901 - INFO - Mensaje enviado exitosamente a +543757677081
+2025-07-02 03:08:02,902 - INFO - Esperando 3 segundos...
+2025-07-02 03:08:05,904 - INFO - Procesando: ggagag - 52d3 - +543757686653
+2025-07-02 03:08:05,905 - INFO - Buscando contacto: +543757686653
+2025-07-02 03:08:28,069 - WARNING - No se encontró contacto para: +543757686653
+2025-07-02 03:08:28,069 - INFO - === Proceso completado ===
+2025-07-02 03:08:28,070 - INFO - Mensajes enviados: 2
+2025-07-02 03:08:28,070 - INFO - Mensajes fallidos: 2
+2025-07-02 03:08:28,071 - INFO - Total procesados: 4
+2025-07-02 03:08:28,071 - INFO - Cerrando navegador...
+2025-07-02 15:44:45,098 - INFO - === Iniciando proceso de notificaciones VTV ===
+2025-07-02 15:44:46,232 - INFO - ====== WebDriver manager ======
+2025-07-02 15:44:47,643 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 15:44:47,880 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 15:44:48,079 - INFO - Driver [C:\Users\Agus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-02 15:44:50,879 - INFO - Driver de Chrome inicializado correctamente
+2025-07-02 15:44:50,882 - INFO - Accediendo a WhatsApp Web...
+2025-07-02 15:44:53,094 - INFO - Esperando autenticación...
+2025-07-02 15:45:03,238 - INFO - Sesión de WhatsApp ya activa
+2025-07-02 15:45:06,136 - INFO - Datos cargados exitosamente: 5 registros
+2025-07-02 15:45:06,484 - INFO - Encontrados 4 vencimientos próximos
+2025-07-02 15:45:06,907 - INFO - Procesando: Juan Perez - AA31BB - +543757644623
+2025-07-02 15:45:07,015 - INFO - Buscando contacto: +543757644623
+2025-07-02 15:45:24,196 - INFO - Chat abierto correctamente para: +543757644623
+2025-07-02 15:45:31,280 - INFO - Mensaje enviado correctamente
+2025-07-02 15:45:31,281 - INFO - Mensaje enviado exitosamente a +543757644623
+2025-07-02 15:45:31,282 - INFO - Esperando 3 segundos...
+2025-07-02 15:45:34,284 - INFO - Procesando: Pedro - afaafa - +543757424242
+2025-07-02 15:45:34,285 - INFO - Buscando contacto: +543757424242
+2025-07-02 15:45:56,460 - WARNING - No se encontró contacto para: +543757424242
+2025-07-02 15:45:56,461 - INFO - Procesando: Yami  - AA31BB - +543757677081
+2025-07-02 15:45:56,461 - INFO - Buscando contacto: +543757677081
+2025-07-02 15:46:07,940 - INFO - Chat abierto correctamente para: +543757677081
+2025-07-02 15:46:14,852 - INFO - Mensaje enviado correctamente
+2025-07-02 15:46:14,853 - INFO - Mensaje enviado exitosamente a +543757677081
+2025-07-02 15:46:14,854 - INFO - Esperando 3 segundos...
+2025-07-02 15:46:17,887 - INFO - Procesando: ggagag - 52d3 - +543757686653
+2025-07-02 15:46:17,889 - INFO - Buscando contacto: +543757686653
+2025-07-02 15:46:39,946 - WARNING - No se encontró contacto para: +543757686653
+2025-07-02 15:46:39,946 - INFO - === Proceso completado ===
+2025-07-02 15:46:39,947 - INFO - Mensajes enviados: 2
+2025-07-02 15:46:39,948 - INFO - Mensajes fallidos: 2
+2025-07-02 15:46:39,948 - INFO - Total procesados: 4
+2025-07-02 15:46:39,949 - INFO - Cerrando navegador...
+2025-07-03 18:44:24,101 - INFO - === Iniciando proceso de notificaciones VTV ===
+2025-07-03 18:44:25,287 - INFO - ====== WebDriver manager ======
+2025-07-03 18:44:27,073 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-03 18:44:27,207 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-03 18:44:27,309 - INFO - Driver [C:\Users\Agus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-03 18:44:30,206 - INFO - Driver de Chrome inicializado correctamente
+2025-07-03 18:44:30,210 - INFO - Accediendo a WhatsApp Web...
+2025-07-03 18:44:34,983 - INFO - Esperando autenticación...
+2025-07-03 18:44:55,507 - ERROR - Tiempo agotado esperando autenticación
+2025-07-03 18:44:55,508 - INFO - Cerrando navegador...
+2025-07-03 18:45:19,185 - INFO - ==================================================
+2025-07-03 18:45:19,185 - INFO - === INICIANDO PROCESO DE NOTIFICACIONES DE VTV ===
+2025-07-03 18:45:19,187 - INFO - ==================================================
+2025-07-03 18:45:19,187 - CRITICAL - ❌ Error: No se encontró el archivo de datos 'datos_vtv.xlsx'.
+2025-07-03 18:45:19,188 - CRITICAL - Por favor, asegúrate de que el archivo exista en el directorio correcto.
+2025-07-03 18:45:27,028 - INFO - ==================================================
+2025-07-03 18:45:27,028 - INFO - === INICIANDO PROCESO DE NOTIFICACIONES DE VTV ===
+2025-07-03 18:45:27,029 - INFO - ==================================================
+2025-07-03 18:45:27,030 - CRITICAL - ❌ Error: No se encontró el archivo de datos 'datos_vtv.xlsx'.
+2025-07-03 18:45:27,030 - CRITICAL - Por favor, asegúrate de que el archivo exista en el directorio correcto.
+2025-07-03 18:45:39,887 - INFO - ==================================================
+2025-07-03 18:45:39,887 - INFO - === INICIANDO PROCESO DE NOTIFICACIONES DE VTV ===
+2025-07-03 18:45:39,888 - INFO - ==================================================
+2025-07-03 18:45:39,888 - CRITICAL - ❌ Error: No se encontró el archivo de datos 'datos_vtv.xlsx'.
+2025-07-03 18:45:39,889 - CRITICAL - Por favor, asegúrate de que el archivo exista en el directorio correcto.
+2025-07-03 18:45:55,356 - INFO - ==================================================
+2025-07-03 18:45:55,358 - INFO - === INICIANDO PROCESO DE NOTIFICACIONES DE VTV ===
+2025-07-03 18:45:55,359 - INFO - ==================================================
+2025-07-03 18:45:55,360 - CRITICAL - ❌ Error: No se encontró el archivo de datos 'datos_vtv.xlsx'.
+2025-07-03 18:45:55,362 - CRITICAL - Por favor, asegúrate de que el archivo exista en el directorio correcto.
+2025-07-03 18:45:59,288 - INFO - ==================================================
+2025-07-03 18:45:59,380 - INFO - === INICIANDO PROCESO DE NOTIFICACIONES DE VTV ===
+2025-07-03 18:45:59,460 - INFO - ==================================================
+2025-07-03 18:45:59,462 - CRITICAL - ❌ Error: No se encontró el archivo de datos 'datos_vtv.xlsx'.
+2025-07-03 18:45:59,464 - CRITICAL - Por favor, asegúrate de que el archivo exista en el directorio correcto.
+2025-07-03 18:46:15,700 - INFO - ==================================================
+2025-07-03 18:46:15,700 - INFO - === INICIANDO PROCESO DE NOTIFICACIONES DE VTV ===
+2025-07-03 18:46:15,701 - INFO - ==================================================
+2025-07-03 18:46:15,701 - CRITICAL - ❌ Error: No se encontró el archivo de datos 'datos_vtv.xlsx'.
+2025-07-03 18:46:15,702 - CRITICAL - Por favor, asegúrate de que el archivo exista en el directorio correcto.
+2025-07-03 18:46:49,051 - INFO - ==================================================
+2025-07-03 18:46:49,053 - INFO - === INICIANDO PROCESO DE NOTIFICACIONES DE VTV ===
+2025-07-03 18:46:49,054 - INFO - ==================================================
+2025-07-03 18:46:49,055 - CRITICAL - ❌ Error: No se encontró el archivo de datos 'datos_vtv.xlsx'.
+2025-07-03 18:46:49,056 - CRITICAL - Por favor, asegúrate de que el archivo exista en el directorio correcto.
+2025-07-03 18:46:57,383 - INFO - ==================================================
+2025-07-03 18:46:57,384 - INFO - === INICIANDO PROCESO DE NOTIFICACIONES DE VTV ===
+2025-07-03 18:46:57,384 - INFO - ==================================================
+2025-07-03 18:46:57,385 - CRITICAL - ❌ Error: No se encontró el archivo de datos 'datos_vtv.xlsx'.
+2025-07-03 18:46:57,385 - CRITICAL - Por favor, asegúrate de que el archivo exista en el directorio correcto.
+2025-07-03 18:48:30,799 - INFO - ==================================================
+2025-07-03 18:48:30,801 - INFO - === INICIANDO PROCESO DE NOTIFICACIONES DE VTV ===
+2025-07-03 18:48:30,801 - INFO - ==================================================
+2025-07-03 18:48:30,802 - CRITICAL - ❌ Error: No se encontró el archivo de datos 'datos_vtv.xlsx'.
+2025-07-03 18:48:30,803 - CRITICAL - Por favor, asegúrate de que el archivo exista en el directorio correcto.
+2025-07-03 18:48:35,471 - INFO - ==================================================
+2025-07-03 18:48:35,473 - INFO - === INICIANDO PROCESO DE NOTIFICACIONES DE VTV ===
+2025-07-03 18:48:35,475 - INFO - ==================================================
+2025-07-03 18:48:35,528 - CRITICAL - ❌ Error: No se encontró el archivo de datos 'datos_vtv.xlsx'.
+2025-07-03 18:48:35,561 - CRITICAL - Por favor, asegúrate de que el archivo exista en el directorio correcto.
+2025-07-03 18:49:17,687 - INFO - ==================================================
+2025-07-03 18:49:17,688 - INFO - === INICIANDO PROCESO DE NOTIFICACIONES DE VTV ===
+2025-07-03 18:49:17,691 - INFO - ==================================================
+2025-07-03 18:49:17,692 - CRITICAL - ❌ Error: No se encontró el archivo de datos 'datos_vtv.xlsx'.
+2025-07-03 18:49:17,692 - CRITICAL - Por favor, asegúrate de que el archivo exista en el directorio correcto.
+2025-07-03 18:49:33,834 - INFO - ==================================================
+2025-07-03 18:49:33,835 - INFO - === INICIANDO PROCESO DE NOTIFICACIONES DE VTV ===
+2025-07-03 18:49:33,836 - INFO - ==================================================
+2025-07-03 18:49:33,837 - CRITICAL - ❌ Error: No se encontró el archivo de datos 'datos_vtv.xlsx'.
+2025-07-03 18:49:33,838 - CRITICAL - Por favor, asegúrate de que el archivo exista en el directorio correcto.
+2025-07-03 18:50:26,952 - INFO - ==================================================
+2025-07-03 18:50:26,968 - INFO - === INICIANDO PROCESO DE NOTIFICACIONES DE VTV ===
+2025-07-03 18:50:26,978 - INFO - ==================================================
+2025-07-03 18:50:27,004 - CRITICAL - ❌ Error: No se encontró el archivo de datos 'datos_vtv.xlsx'.
+2025-07-03 18:50:27,184 - CRITICAL - Por favor, asegúrate de que el archivo exista en el directorio correcto.
+2025-07-03 18:50:43,262 - INFO - ==================================================
+2025-07-03 18:50:43,263 - INFO - === INICIANDO PROCESO DE NOTIFICACIONES DE VTV ===
+2025-07-03 18:50:43,264 - INFO - ==================================================
+2025-07-03 18:50:43,264 - CRITICAL - ❌ Error: No se encontró el archivo de datos 'datos_vtv.xlsx'.
+2025-07-03 18:50:43,265 - CRITICAL - Por favor, asegúrate de que el archivo exista en el directorio correcto.
+2025-07-03 18:53:13,330 - INFO - ==================================================
+2025-07-03 18:53:13,331 - INFO - === INICIANDO PROCESO DE NOTIFICACIONES DE VTV ===
+2025-07-03 18:53:13,332 - INFO - ==================================================
+2025-07-03 18:53:13,333 - CRITICAL - ❌ Error: No se encontró el archivo de datos 'datos_vtv.xlsx'.
+2025-07-03 18:53:13,335 - CRITICAL - Por favor, asegúrate de que el archivo exista en el directorio correcto.
+2025-07-03 18:53:38,210 - INFO - ==================================================
+2025-07-03 18:53:38,278 - INFO - === INICIANDO PROCESO DE NOTIFICACIONES DE VTV ===
+2025-07-03 18:53:38,291 - INFO - ==================================================
+2025-07-03 18:53:38,296 - CRITICAL - ❌ Error: No se encontró el archivo de datos 'datos_vtv.xlsx'.
+2025-07-03 18:53:38,303 - CRITICAL - Por favor, asegúrate de que el archivo exista en el directorio correcto.
+2025-07-03 18:53:52,083 - INFO - ==================================================
+2025-07-03 18:53:52,083 - INFO - === INICIANDO PROCESO DE NOTIFICACIONES DE VTV ===
+2025-07-03 18:53:52,084 - INFO - ==================================================
+2025-07-03 18:53:52,091 - INFO - 📊 Cargando datos desde 'datos_vtv.xlsx'...
+2025-07-03 18:53:52,699 - INFO - Detectando columnas del Excel...
+2025-07-03 18:53:52,700 - INFO - Columnas disponibles: ['NombreDelCliente', 'NumeroDeWhatsapp', 'Patente', 'FechaVencimientoVTV', 'ClienteAgente']
+2025-07-03 18:53:52,701 - INFO - ✓ NOMBRE: 'NombreDelCliente' (nombre exacto)
+2025-07-03 18:53:52,702 - INFO - ✓ TELEFONO: 'NumeroDeWhatsapp' (nombre exacto)
+2025-07-03 18:53:52,703 - INFO - ✓ PATENTE: 'Patente' (nombre exacto)
+2025-07-03 18:53:52,703 - INFO - ✓ FECHA_VENCIMIENTO: 'FechaVencimientoVTV' (nombre exacto)
+2025-07-03 18:53:52,703 - INFO - 🔄 Procesando datos...
+2025-07-03 18:53:52,738 - INFO - ✅ Datos cargados y procesados exitosamente: 5 registros.
+2025-07-03 18:53:52,936 - INFO - 🔍 Filtrando vencimientos entre 2025-07-03 y 2025-07-18 (15 días)
+2025-07-03 18:53:53,039 - INFO - 📋 Se encontraron 4 vencimientos próximos para notificar.
+2025-07-03 18:53:53,065 - INFO - 📄 Resumen de vencimientos:
+2025-07-03 18:53:53,068 - INFO -   - Juan Perez: AA31BB (vence 2025-07-13)
+2025-07-03 18:53:53,068 - INFO -   - Pedro: afaafa (vence 2025-07-08)
+2025-07-03 18:53:53,069 - INFO -   - Yami : AA31BB (vence 2025-07-05)
+2025-07-03 18:53:53,070 - INFO -   - ggagag: 52d3 (vence 2025-07-07)
+2025-07-03 18:54:15,776 - INFO - 🚀 Iniciando WhatsApp Web...
+2025-07-03 18:54:15,777 - INFO - Inicializando el driver de Chrome...
+2025-07-03 18:54:15,778 - INFO - ====== WebDriver manager ======
+2025-07-03 18:54:17,216 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-03 18:54:18,434 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-03 18:54:18,552 - INFO - Driver [C:\Users\Agus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-03 18:54:22,118 - INFO - Driver de Chrome inicializado correctamente.
+2025-07-03 18:54:22,119 - INFO - Accediendo a WhatsApp Web...
+2025-07-03 18:54:28,057 - INFO - Esperando autenticación. Escanea el código QR si es necesario.
+2025-07-03 18:54:48,929 - INFO - Esperando escaneo de código QR (máximo 60 segundos)...
+2025-07-03 18:55:02,009 - INFO - Autenticación por código QR exitosa.
+2025-07-03 18:55:02,031 - INFO - 📤 Comenzando envío de 4 mensajes...
+2025-07-03 18:55:02,034 - INFO - 📨 Procesando 1/4: Juan Perez (5493757644623) ---
+2025-07-03 18:55:02,035 - INFO - Buscando contacto: 5493757644623
+2025-07-03 18:55:08,944 - WARNING - No se pudo limpiar el campo de búsqueda: Message: element click intercepted: Element <div aria-autocomplete="list" aria-label="Cuadro de texto para ingresar la búsqueda" aria-owns="emoji-suggestion" class="x1hx0egp x6ikm8r x1odjw0f x6prxxf x1k6rcq7 x1whj5v" contenteditable="true" role="textbox" spellcheck="true" tabindex="3" aria-placeholder="Buscar un chat o iniciar uno nuevo" data-tab="3" data-lexical-editor="true" style="min-height: 1.47em; user-select: text; white-space: pre-wrap; word-break: break-word;">...</div> is not clickable at point (343, 83). Other element would receive the click: <div class="x9f619 x78zum5 xdt5ytf x6s0dn4 xl56j7k xh8yej3 x17q2evi x1jn0hjm x1us19tq" role="dialog">...</div>
+  (Session info: chrome=138.0.7204.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	GetHandleVerifier [0x0xc64553+62419]
+	GetHandleVerifier [0x0xc64594+62484]
+	(No symbol) [0x0xaa2133]
+	(No symbol) [0x0xaf0c40]
+	(No symbol) [0x0xaeeffa]
+	(No symbol) [0x0xaecb57]
+	(No symbol) [0x0xaebe14]
+	(No symbol) [0x0xae05c5]
+	(No symbol) [0x0xb0f46c]
+	(No symbol) [0x0xae0054]
+	(No symbol) [0x0xb0f6e4]
+	(No symbol) [0x0xb3087a]
+	(No symbol) [0x0xb0f266]
+	(No symbol) [0x0xade852]
+	(No symbol) [0x0xadf6f4]
+	GetHandleVerifier [0x0xed4833+2619059]
+	GetHandleVerifier [0x0xecfc4a+2599626]
+	GetHandleVerifier [0x0xc8b0fa+221050]
+	GetHandleVerifier [0x0xc7b378+156152]
+	GetHandleVerifier [0x0xc81d2d+183213]
+	GetHandleVerifier [0x0xc6c438+94904]
+	GetHandleVerifier [0x0xc6c5c2+95298]
+	GetHandleVerifier [0x0xc5771a+9626]
+	BaseThreadInitThunk [0x0x76fd05c9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77e27c5d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x77e27c2d+189]
+
+2025-07-03 18:55:09,303 - ERROR - ❌ Fallo al enviar a Juan Perez: No se pudo encontrar o seleccionar el contacto 5493757644623.
+2025-07-03 18:55:09,306 - INFO - ⏱️ Esperando 5 segundos para el próximo envío...
+2025-07-03 18:55:14,307 - INFO - 📨 Procesando 2/4: Pedro (5493757424242) ---
+2025-07-03 18:55:14,308 - INFO - Buscando contacto: 5493757424242
+2025-07-03 18:55:15,647 - WARNING - No se pudo limpiar el campo de búsqueda: Message: element click intercepted: Element <div aria-autocomplete="list" aria-label="Cuadro de texto para ingresar la búsqueda" aria-owns="emoji-suggestion" class="x1hx0egp x6ikm8r x1odjw0f x6prxxf x1k6rcq7 x1whj5v" contenteditable="true" role="textbox" spellcheck="true" tabindex="3" aria-placeholder="Buscar un chat o iniciar uno nuevo" data-tab="3" data-lexical-editor="true" style="min-height: 1.47em; user-select: text; white-space: pre-wrap; word-break: break-word;">...</div> is not clickable at point (343, 83). Other element would receive the click: <div class="x9f619 x78zum5 xdt5ytf x6s0dn4 xl56j7k xh8yej3 x17q2evi x1jn0hjm x1us19tq" role="dialog">...</div>
+  (Session info: chrome=138.0.7204.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	GetHandleVerifier [0x0xc64553+62419]
+	GetHandleVerifier [0x0xc64594+62484]
+	(No symbol) [0x0xaa2133]
+	(No symbol) [0x0xaf0c40]
+	(No symbol) [0x0xaeeffa]
+	(No symbol) [0x0xaecb57]
+	(No symbol) [0x0xaebe14]
+	(No symbol) [0x0xae05c5]
+	(No symbol) [0x0xb0f46c]
+	(No symbol) [0x0xae0054]
+	(No symbol) [0x0xb0f6e4]
+	(No symbol) [0x0xb3087a]
+	(No symbol) [0x0xb0f266]
+	(No symbol) [0x0xade852]
+	(No symbol) [0x0xadf6f4]
+	GetHandleVerifier [0x0xed4833+2619059]
+	GetHandleVerifier [0x0xecfc4a+2599626]
+	GetHandleVerifier [0x0xc8b0fa+221050]
+	GetHandleVerifier [0x0xc7b378+156152]
+	GetHandleVerifier [0x0xc81d2d+183213]
+	GetHandleVerifier [0x0xc6c438+94904]
+	GetHandleVerifier [0x0xc6c5c2+95298]
+	GetHandleVerifier [0x0xc5771a+9626]
+	BaseThreadInitThunk [0x0x76fd05c9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77e27c5d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x77e27c2d+189]
+
+2025-07-03 18:55:15,650 - ERROR - ❌ Fallo al enviar a Pedro: No se pudo encontrar o seleccionar el contacto 5493757424242.
+2025-07-03 18:55:15,653 - INFO - ⏱️ Esperando 5 segundos para el próximo envío...
+2025-07-03 18:55:20,670 - INFO - 📨 Procesando 3/4: Yami  (5493757677081) ---
+2025-07-03 18:55:20,680 - INFO - Buscando contacto: 5493757677081
+2025-07-03 18:55:21,880 - WARNING - No se pudo limpiar el campo de búsqueda: Message: element click intercepted: Element <div aria-autocomplete="list" aria-label="Cuadro de texto para ingresar la búsqueda" aria-owns="emoji-suggestion" class="x1hx0egp x6ikm8r x1odjw0f x6prxxf x1k6rcq7 x1whj5v" contenteditable="true" role="textbox" spellcheck="true" tabindex="3" aria-placeholder="Buscar un chat o iniciar uno nuevo" data-tab="3" data-lexical-editor="true" style="min-height: 1.47em; user-select: text; white-space: pre-wrap; word-break: break-word;">...</div> is not clickable at point (343, 83). Other element would receive the click: <div class="x9f619 x78zum5 xdt5ytf x6s0dn4 xl56j7k xh8yej3 x17q2evi x1jn0hjm x1us19tq" role="dialog">...</div>
+  (Session info: chrome=138.0.7204.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	GetHandleVerifier [0x0xc64553+62419]
+	GetHandleVerifier [0x0xc64594+62484]
+	(No symbol) [0x0xaa2133]
+	(No symbol) [0x0xaf0c40]
+	(No symbol) [0x0xaeeffa]
+	(No symbol) [0x0xaecb57]
+	(No symbol) [0x0xaebe14]
+	(No symbol) [0x0xae05c5]
+	(No symbol) [0x0xb0f46c]
+	(No symbol) [0x0xae0054]
+	(No symbol) [0x0xb0f6e4]
+	(No symbol) [0x0xb3087a]
+	(No symbol) [0x0xb0f266]
+	(No symbol) [0x0xade852]
+	(No symbol) [0x0xadf6f4]
+	GetHandleVerifier [0x0xed4833+2619059]
+	GetHandleVerifier [0x0xecfc4a+2599626]
+	GetHandleVerifier [0x0xc8b0fa+221050]
+	GetHandleVerifier [0x0xc7b378+156152]
+	GetHandleVerifier [0x0xc81d2d+183213]
+	GetHandleVerifier [0x0xc6c438+94904]
+	GetHandleVerifier [0x0xc6c5c2+95298]
+	GetHandleVerifier [0x0xc5771a+9626]
+	BaseThreadInitThunk [0x0x76fd05c9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77e27c5d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x77e27c2d+189]
+
+2025-07-03 18:55:21,886 - ERROR - ❌ Fallo al enviar a Yami : No se pudo encontrar o seleccionar el contacto 5493757677081.
+2025-07-03 18:55:21,887 - INFO - ⏱️ Esperando 5 segundos para el próximo envío...
+2025-07-03 18:55:26,888 - INFO - 📨 Procesando 4/4: ggagag (5493757686653) ---
+2025-07-03 18:55:26,891 - INFO - Buscando contacto: 5493757686653
+2025-07-03 18:55:28,335 - WARNING - No se pudo limpiar el campo de búsqueda: Message: element click intercepted: Element <div aria-autocomplete="list" aria-label="Cuadro de texto para ingresar la búsqueda" aria-owns="emoji-suggestion" class="x1hx0egp x6ikm8r x1odjw0f x6prxxf x1k6rcq7 x1whj5v" contenteditable="true" role="textbox" spellcheck="true" tabindex="3" aria-placeholder="Buscar un chat o iniciar uno nuevo" data-tab="3" data-lexical-editor="true" style="min-height: 1.47em; user-select: text; white-space: pre-wrap; word-break: break-word;">...</div> is not clickable at point (343, 83). Other element would receive the click: <div class="x9f619 x78zum5 xdt5ytf x6s0dn4 xl56j7k xh8yej3 x17q2evi x1jn0hjm x1us19tq" role="dialog">...</div>
+  (Session info: chrome=138.0.7204.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	GetHandleVerifier [0x0xc64553+62419]
+	GetHandleVerifier [0x0xc64594+62484]
+	(No symbol) [0x0xaa2133]
+	(No symbol) [0x0xaf0c40]
+	(No symbol) [0x0xaeeffa]
+	(No symbol) [0x0xaecb57]
+	(No symbol) [0x0xaebe14]
+	(No symbol) [0x0xae05c5]
+	(No symbol) [0x0xb0f46c]
+	(No symbol) [0x0xae0054]
+	(No symbol) [0x0xb0f6e4]
+	(No symbol) [0x0xb3087a]
+	(No symbol) [0x0xb0f266]
+	(No symbol) [0x0xade852]
+	(No symbol) [0x0xadf6f4]
+	GetHandleVerifier [0x0xed4833+2619059]
+	GetHandleVerifier [0x0xecfc4a+2599626]
+	GetHandleVerifier [0x0xc8b0fa+221050]
+	GetHandleVerifier [0x0xc7b378+156152]
+	GetHandleVerifier [0x0xc81d2d+183213]
+	GetHandleVerifier [0x0xc6c438+94904]
+	GetHandleVerifier [0x0xc6c5c2+95298]
+	GetHandleVerifier [0x0xc5771a+9626]
+	BaseThreadInitThunk [0x0x76fd05c9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77e27c5d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x77e27c2d+189]
+
+2025-07-03 18:55:28,341 - ERROR - ❌ Fallo al enviar a ggagag: No se pudo encontrar o seleccionar el contacto 5493757686653.
+2025-07-03 18:55:28,342 - INFO - 
+============================================================
+2025-07-03 18:55:28,342 - INFO - === PROCESO DE NOTIFICACIONES COMPLETADO ===
+2025-07-03 18:55:28,343 - INFO - 📊 Total de vencimientos a notificar: 4
+2025-07-03 18:55:28,344 - INFO - ✅ Mensajes enviados exitosamente: 0
+2025-07-03 18:55:28,344 - INFO - ❌ Mensajes fallidos: 4
+2025-07-03 18:55:28,345 - INFO - 📋 Contactos con fallo:
+2025-07-03 18:55:28,346 - INFO -   - Juan Perez: No se pudo encontrar o seleccionar el contacto 5493757644623.
+2025-07-03 18:55:28,346 - INFO -   - Pedro: No se pudo encontrar o seleccionar el contacto 5493757424242.
+2025-07-03 18:55:28,347 - INFO -   - Yami : No se pudo encontrar o seleccionar el contacto 5493757677081.
+2025-07-03 18:55:28,348 - INFO -   - ggagag: No se pudo encontrar o seleccionar el contacto 5493757686653.
+2025-07-03 18:55:28,349 - INFO - ============================================================
+2025-07-03 18:55:28,349 - INFO - 📊 Generando reporte de envíos fallidos en 'reporte_fallidos.xlsx'...
+2025-07-03 18:55:28,382 - INFO - ✅ Reporte de fallidos generado exitosamente.
+2025-07-03 18:55:28,456 - INFO - Cerrando el navegador...
+2025-07-03 18:55:34,113 - INFO - 🎉 El script ha finalizado. Revisa el log y el reporte de fallidos si es necesario.
+2025-07-03 18:55:51,630 - INFO - ==================================================
+2025-07-03 18:55:51,631 - INFO - === INICIANDO PROCESO DE NOTIFICACIONES DE VTV ===
+2025-07-03 18:55:51,632 - INFO - ==================================================
+2025-07-03 18:55:51,649 - INFO - 📊 Cargando datos desde 'datos_vtv.xlsx'...
+2025-07-03 18:55:52,043 - INFO - Detectando columnas del Excel...
+2025-07-03 18:55:52,044 - INFO - Columnas disponibles: ['NombreDelCliente', 'NumeroDeWhatsapp', 'Patente', 'FechaVencimientoVTV', 'ClienteAgente']
+2025-07-03 18:55:52,045 - INFO - ✓ NOMBRE: 'NombreDelCliente' (nombre exacto)
+2025-07-03 18:55:52,045 - INFO - ✓ TELEFONO: 'NumeroDeWhatsapp' (nombre exacto)
+2025-07-03 18:55:52,046 - INFO - ✓ PATENTE: 'Patente' (nombre exacto)
+2025-07-03 18:55:52,046 - INFO - ✓ FECHA_VENCIMIENTO: 'FechaVencimientoVTV' (nombre exacto)
+2025-07-03 18:55:52,047 - INFO - 🔄 Procesando datos...
+2025-07-03 18:55:52,056 - INFO - ✅ Datos cargados y procesados exitosamente: 5 registros.
+2025-07-03 18:55:52,056 - INFO - 🔍 Filtrando vencimientos entre 2025-07-03 y 2025-07-18 (15 días)
+2025-07-03 18:55:52,064 - INFO - 📋 Se encontraron 4 vencimientos próximos para notificar.
+2025-07-03 18:55:52,068 - INFO - 📄 Resumen de vencimientos:
+2025-07-03 18:55:52,070 - INFO -   - Juan Perez: AA31BB (vence 2025-07-13)
+2025-07-03 18:55:52,079 - INFO -   - Pedro: afaafa (vence 2025-07-08)
+2025-07-03 18:55:52,080 - INFO -   - Yami : AA31BB (vence 2025-07-05)
+2025-07-03 18:55:52,084 - INFO -   - ggagag: 52d3 (vence 2025-07-07)
+2025-07-03 18:55:53,430 - INFO - 🚀 Iniciando WhatsApp Web...
+2025-07-03 18:55:53,431 - INFO - Inicializando el driver de Chrome...
+2025-07-03 18:55:53,431 - INFO - ====== WebDriver manager ======
+2025-07-03 18:55:54,832 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-03 18:55:54,954 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-03 18:55:55,094 - INFO - Driver [C:\Users\Agus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-03 18:55:58,902 - INFO - Driver de Chrome inicializado correctamente.
+2025-07-03 18:55:58,919 - INFO - Accediendo a WhatsApp Web...
+2025-07-03 18:56:01,811 - INFO - Esperando autenticación. Escanea el código QR si es necesario.
+2025-07-03 18:56:11,975 - INFO - Sesión de WhatsApp ya activa.
+2025-07-03 18:56:12,012 - INFO - 📤 Comenzando envío de 4 mensajes...
+2025-07-03 18:56:12,013 - INFO - 📨 Procesando 1/4: Juan Perez (5493757644623) ---
+2025-07-03 18:56:12,075 - INFO - Buscando contacto: 5493757644623
+2025-07-03 18:56:13,530 - WARNING - No se pudo limpiar el campo de búsqueda: Message: element click intercepted: Element <div aria-autocomplete="list" aria-label="Cuadro de texto para ingresar la búsqueda" aria-owns="emoji-suggestion" class="x1hx0egp x6ikm8r x1odjw0f x6prxxf x1k6rcq7 x1whj5v" contenteditable="true" role="textbox" spellcheck="true" tabindex="3" aria-placeholder="Buscar un chat o iniciar uno nuevo" data-tab="3" data-lexical-editor="true" style="min-height: 1.47em; user-select: text; white-space: pre-wrap; word-break: break-word;">...</div> is not clickable at point (343, 83). Other element would receive the click: <div class="x9f619 x78zum5 xdt5ytf x6s0dn4 xl56j7k xh8yej3 x17q2evi x1jn0hjm x1us19tq" role="dialog">...</div>
+  (Session info: chrome=138.0.7204.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	GetHandleVerifier [0x0xc64553+62419]
+	GetHandleVerifier [0x0xc64594+62484]
+	(No symbol) [0x0xaa2133]
+	(No symbol) [0x0xaf0c40]
+	(No symbol) [0x0xaeeffa]
+	(No symbol) [0x0xaecb57]
+	(No symbol) [0x0xaebe14]
+	(No symbol) [0x0xae05c5]
+	(No symbol) [0x0xb0f46c]
+	(No symbol) [0x0xae0054]
+	(No symbol) [0x0xb0f6e4]
+	(No symbol) [0x0xb3087a]
+	(No symbol) [0x0xb0f266]
+	(No symbol) [0x0xade852]
+	(No symbol) [0x0xadf6f4]
+	GetHandleVerifier [0x0xed4833+2619059]
+	GetHandleVerifier [0x0xecfc4a+2599626]
+	GetHandleVerifier [0x0xc8b0fa+221050]
+	GetHandleVerifier [0x0xc7b378+156152]
+	GetHandleVerifier [0x0xc81d2d+183213]
+	GetHandleVerifier [0x0xc6c438+94904]
+	GetHandleVerifier [0x0xc6c5c2+95298]
+	GetHandleVerifier [0x0xc5771a+9626]
+	BaseThreadInitThunk [0x0x76fd05c9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77e27c5d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x77e27c2d+189]
+
+2025-07-03 18:56:13,534 - ERROR - ❌ Fallo al enviar a Juan Perez: No se pudo encontrar o seleccionar el contacto 5493757644623.
+2025-07-03 18:56:13,535 - INFO - ⏱️ Esperando 5 segundos para el próximo envío...
+2025-07-03 18:56:18,541 - INFO - 📨 Procesando 2/4: Pedro (5493757424242) ---
+2025-07-03 18:56:18,543 - INFO - Buscando contacto: 5493757424242
+2025-07-03 18:56:53,054 - WARNING - No se encontró contacto para: 5493757424242
+2025-07-03 18:56:53,055 - ERROR - ❌ Fallo al enviar a Pedro: No se pudo encontrar o seleccionar el contacto 5493757424242.
+2025-07-03 18:56:53,056 - INFO - ⏱️ Esperando 5 segundos para el próximo envío...
+2025-07-03 18:56:58,057 - INFO - 📨 Procesando 3/4: Yami  (5493757677081) ---
+2025-07-03 18:56:58,058 - INFO - Buscando contacto: 5493757677081
+2025-07-03 18:57:22,782 - INFO - Chat abierto correctamente para: 5493757677081
+2025-07-03 18:57:28,761 - INFO - Mensaje enviado correctamente.
+2025-07-03 18:57:30,827 - INFO - ✅ Mensaje enviado exitosamente a Yami 
+2025-07-03 18:57:31,080 - INFO - ⏱️ Esperando 5 segundos para el próximo envío...
+2025-07-03 18:57:36,393 - INFO - 📨 Procesando 4/4: ggagag (5493757686653) ---
+2025-07-03 18:57:36,433 - INFO - Buscando contacto: 5493757686653
+2025-07-03 18:57:44,240 - WARNING - 
+⚠️ Proceso interrumpido por el usuario.
+2025-07-04 02:47:17,451 - INFO - ==================================================
+2025-07-04 02:47:17,452 - INFO - === INICIANDO PROCESO DE NOTIFICACIONES DE VTV ===
+2025-07-04 02:47:17,452 - INFO - ==================================================
+2025-07-04 02:47:17,458 - INFO - 📊 Cargando datos desde 'datos_vtv.xlsx'...
+2025-07-04 02:47:18,217 - INFO - Detectando columnas del Excel...
+2025-07-04 02:47:18,218 - INFO - Columnas disponibles: ['NombreDelCliente', 'NumeroDeWhatsapp', 'Patente', 'FechaVencimientoVTV', 'ClienteAgente']
+2025-07-04 02:47:18,219 - INFO - ✓ NOMBRE: 'NombreDelCliente' (nombre exacto)
+2025-07-04 02:47:18,219 - INFO - ✓ TELEFONO: 'NumeroDeWhatsapp' (nombre exacto)
+2025-07-04 02:47:18,219 - INFO - ✓ PATENTE: 'Patente' (nombre exacto)
+2025-07-04 02:47:18,220 - INFO - ✓ FECHA_VENCIMIENTO: 'FechaVencimientoVTV' (nombre exacto)
+2025-07-04 02:47:18,220 - INFO - 🔄 Procesando datos...
+2025-07-04 02:47:18,233 - INFO - ✅ Datos cargados y procesados exitosamente: 6 registros.
+2025-07-04 02:47:18,233 - INFO - 🔍 Filtrando vencimientos entre 2025-07-04 y 2025-07-19 (15 días)
+2025-07-04 02:47:18,245 - INFO - 📋 Se encontraron 4 vencimientos próximos para notificar.
+2025-07-04 02:47:18,245 - INFO - 📄 Resumen de vencimientos:
+2025-07-04 02:47:18,247 - INFO -   - Juan Perez: AA31BB (vence 2025-07-13)
+2025-07-04 02:47:18,247 - INFO -   - Pedro: afaafa (vence 2025-07-08)
+2025-07-04 02:47:18,248 - INFO -   - Yami : AA31BB (vence 2025-07-05)
+2025-07-04 02:47:18,248 - INFO -   - ggagag: 52d3 (vence 2025-07-07)
+2025-07-04 02:48:05,502 - INFO - 🚀 Iniciando WhatsApp Web...
+2025-07-04 02:48:05,503 - INFO - Inicializando el driver de Chrome...
+2025-07-04 02:48:05,504 - INFO - ====== WebDriver manager ======
+2025-07-04 02:48:06,943 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 02:48:07,147 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 02:48:07,307 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 02:48:07,751 - INFO - WebDriver version 138.0.7204.92 selected
+2025-07-04 02:48:07,763 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/138.0.7204.92/win32/chromedriver-win32.zip
+2025-07-04 02:48:07,764 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/138.0.7204.92/win32/chromedriver-win32.zip
+2025-07-04 02:48:07,963 - INFO - Driver downloading response is 200
+2025-07-04 02:48:23,734 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 02:48:24,077 - INFO - Driver has been saved in cache [C:\Users\Agus\.wdm\drivers\chromedriver\win64\138.0.7204.92]
+2025-07-04 02:48:28,546 - INFO - Driver de Chrome inicializado correctamente.
+2025-07-04 02:48:28,587 - INFO - Accediendo a WhatsApp Web...
+2025-07-04 02:48:34,194 - INFO - Esperando autenticación. Escanea el código QR si es necesario.
+2025-07-04 02:48:54,330 - INFO - Esperando escaneo de código QR (máximo 60 segundos)...
+2025-07-04 02:49:14,511 - ERROR - Tiempo de espera agotado para la autenticación en WhatsApp Web.
+2025-07-04 02:49:14,511 - INFO - Cerrando el navegador...
+2025-07-04 02:49:34,564 - INFO - ==================================================
+2025-07-04 02:49:34,565 - INFO - === INICIANDO PROCESO DE NOTIFICACIONES DE VTV ===
+2025-07-04 02:49:34,566 - INFO - ==================================================
+2025-07-04 02:49:34,575 - INFO - 📊 Cargando datos desde 'datos_vtv.xlsx'...
+2025-07-04 02:49:35,045 - INFO - Detectando columnas del Excel...
+2025-07-04 02:49:35,046 - INFO - Columnas disponibles: ['NombreDelCliente', 'NumeroDeWhatsapp', 'Patente', 'FechaVencimientoVTV', 'ClienteAgente']
+2025-07-04 02:49:35,047 - INFO - ✓ NOMBRE: 'NombreDelCliente' (nombre exacto)
+2025-07-04 02:49:35,047 - INFO - ✓ TELEFONO: 'NumeroDeWhatsapp' (nombre exacto)
+2025-07-04 02:49:35,048 - INFO - ✓ PATENTE: 'Patente' (nombre exacto)
+2025-07-04 02:49:35,048 - INFO - ✓ FECHA_VENCIMIENTO: 'FechaVencimientoVTV' (nombre exacto)
+2025-07-04 02:49:35,048 - INFO - 🔄 Procesando datos...
+2025-07-04 02:49:35,057 - INFO - ✅ Datos cargados y procesados exitosamente: 6 registros.
+2025-07-04 02:49:35,058 - INFO - 🔍 Filtrando vencimientos entre 2025-07-04 y 2025-07-19 (15 días)
+2025-07-04 02:49:35,065 - INFO - 📋 Se encontraron 4 vencimientos próximos para notificar.
+2025-07-04 02:49:35,065 - INFO - 📄 Resumen de vencimientos:
+2025-07-04 02:49:35,067 - INFO -   - Juan Perez: AA31BB (vence 2025-07-13)
+2025-07-04 02:49:35,073 - INFO -   - Pedro: afaafa (vence 2025-07-08)
+2025-07-04 02:49:35,074 - INFO -   - Yami : AA31BB (vence 2025-07-05)
+2025-07-04 02:49:35,076 - INFO -   - ggagag: 52d3 (vence 2025-07-07)
+2025-07-04 02:49:36,812 - INFO - 🚀 Iniciando WhatsApp Web...
+2025-07-04 02:49:36,813 - INFO - Inicializando el driver de Chrome...
+2025-07-04 02:49:36,813 - INFO - ====== WebDriver manager ======
+2025-07-04 02:49:38,491 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 02:49:38,675 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 02:49:38,798 - INFO - Driver [C:\Users\Agus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-04 02:49:42,370 - INFO - Driver de Chrome inicializado correctamente.
+2025-07-04 02:49:42,371 - INFO - Accediendo a WhatsApp Web...
+2025-07-04 02:49:47,130 - INFO - Esperando autenticación. Escanea el código QR si es necesario.
+2025-07-04 02:50:07,626 - INFO - Esperando escaneo de código QR (máximo 60 segundos)...
+2025-07-04 02:50:14,884 - INFO - Autenticación por código QR exitosa.
+2025-07-04 02:50:14,952 - INFO - Verificando si hay ventanas modales que cerrar...
+2025-07-04 02:50:50,714 - INFO - No se encontraron ventanas modales para cerrar.
+2025-07-04 02:50:50,715 - INFO - 📤 Comenzando envío de 4 mensajes...
+2025-07-04 02:50:50,716 - INFO - 📨 Procesando 1/4: Juan Perez (5493757644623) ---
+2025-07-04 02:50:50,717 - INFO - Buscando contacto: 5493757644623
+2025-07-04 02:50:50,717 - INFO - Verificando si hay ventanas modales que cerrar...
+2025-07-04 02:51:24,716 - INFO - No se encontraron ventanas modales para cerrar.
+2025-07-04 02:51:26,148 - WARNING - No se pudo limpiar el campo de búsqueda: Message: element click intercepted: Element <div aria-autocomplete="list" aria-label="Cuadro de texto para ingresar la búsqueda" aria-owns="emoji-suggestion" class="x1hx0egp x6ikm8r x1odjw0f x6prxxf x1k6rcq7 x1whj5v" contenteditable="true" role="textbox" spellcheck="true" tabindex="3" aria-placeholder="Buscar un chat o iniciar uno nuevo" data-tab="3" data-lexical-editor="true" style="min-height: 1.47em; user-select: text; white-space: pre-wrap; word-break: break-word;">...</div> is not clickable at point (343, 83). Other element would receive the click: <div class="x9f619 x78zum5 xdt5ytf x6s0dn4 xl56j7k xh8yej3 x17q2evi x1jn0hjm x1us19tq" role="dialog">...</div>
+  (Session info: chrome=138.0.7204.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	GetHandleVerifier [0x0xc44553+62419]
+	GetHandleVerifier [0x0xc44594+62484]
+	(No symbol) [0x0xa82133]
+	(No symbol) [0x0xad0c40]
+	(No symbol) [0x0xaceffa]
+	(No symbol) [0x0xaccb57]
+	(No symbol) [0x0xacbe14]
+	(No symbol) [0x0xac05c5]
+	(No symbol) [0x0xaef46c]
+	(No symbol) [0x0xac0054]
+	(No symbol) [0x0xaef6e4]
+	(No symbol) [0x0xb1087a]
+	(No symbol) [0x0xaef266]
+	(No symbol) [0x0xabe852]
+	(No symbol) [0x0xabf6f4]
+	GetHandleVerifier [0x0xeb4833+2619059]
+	GetHandleVerifier [0x0xeafc4a+2599626]
+	GetHandleVerifier [0x0xc6b0fa+221050]
+	GetHandleVerifier [0x0xc5b378+156152]
+	GetHandleVerifier [0x0xc61d2d+183213]
+	GetHandleVerifier [0x0xc4c438+94904]
+	GetHandleVerifier [0x0xc4c5c2+95298]
+	GetHandleVerifier [0x0xc3771a+9626]
+	BaseThreadInitThunk [0x0x754c05c9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77627c5d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x77627c2d+189]
+
+2025-07-04 02:51:26,152 - ERROR - ❌ Fallo al enviar a Juan Perez: No se pudo encontrar o seleccionar el contacto 5493757644623.
+2025-07-04 02:51:26,152 - INFO - ⏱️ Esperando 5 segundos para el próximo envío...
+2025-07-04 02:51:31,154 - INFO - 📨 Procesando 2/4: Pedro (5493757424242) ---
+2025-07-04 02:51:31,157 - INFO - Buscando contacto: 5493757424242
+2025-07-04 02:51:31,228 - INFO - Verificando si hay ventanas modales que cerrar...
+2025-07-04 02:52:02,056 - INFO - No se encontraron ventanas modales para cerrar.
+2025-07-04 02:52:08,197 - WARNING - No se pudo limpiar el campo de búsqueda: Message: element click intercepted: Element <div aria-autocomplete="list" aria-label="Cuadro de texto para ingresar la búsqueda" aria-owns="emoji-suggestion" class="x1hx0egp x6ikm8r x1odjw0f x6prxxf x1k6rcq7 x1whj5v" contenteditable="true" role="textbox" spellcheck="true" tabindex="3" aria-placeholder="Buscar un chat o iniciar uno nuevo" data-tab="3" data-lexical-editor="true" style="min-height: 1.47em; user-select: text; white-space: pre-wrap; word-break: break-word;">...</div> is not clickable at point (343, 83). Other element would receive the click: <div class="x9f619 x78zum5 xdt5ytf x6s0dn4 xl56j7k xh8yej3 x17q2evi x1jn0hjm x1us19tq" role="dialog">...</div>
+  (Session info: chrome=138.0.7204.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	GetHandleVerifier [0x0xc44553+62419]
+	GetHandleVerifier [0x0xc44594+62484]
+	(No symbol) [0x0xa82133]
+	(No symbol) [0x0xad0c40]
+	(No symbol) [0x0xaceffa]
+	(No symbol) [0x0xaccb57]
+	(No symbol) [0x0xacbe14]
+	(No symbol) [0x0xac05c5]
+	(No symbol) [0x0xaef46c]
+	(No symbol) [0x0xac0054]
+	(No symbol) [0x0xaef6e4]
+	(No symbol) [0x0xb1087a]
+	(No symbol) [0x0xaef266]
+	(No symbol) [0x0xabe852]
+	(No symbol) [0x0xabf6f4]
+	GetHandleVerifier [0x0xeb4833+2619059]
+	GetHandleVerifier [0x0xeafc4a+2599626]
+	GetHandleVerifier [0x0xc6b0fa+221050]
+	GetHandleVerifier [0x0xc5b378+156152]
+	GetHandleVerifier [0x0xc61d2d+183213]
+	GetHandleVerifier [0x0xc4c438+94904]
+	GetHandleVerifier [0x0xc4c5c2+95298]
+	GetHandleVerifier [0x0xc3771a+9626]
+	BaseThreadInitThunk [0x0x754c05c9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77627c5d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x77627c2d+189]
+
+2025-07-04 02:52:08,201 - ERROR - ❌ Fallo al enviar a Pedro: No se pudo encontrar o seleccionar el contacto 5493757424242.
+2025-07-04 02:52:08,202 - INFO - ⏱️ Esperando 5 segundos para el próximo envío...
+2025-07-04 02:52:13,204 - INFO - 📨 Procesando 3/4: Yami  (5493757677080) ---
+2025-07-04 02:52:13,313 - INFO - Buscando contacto: 5493757677080
+2025-07-04 02:52:13,759 - INFO - Verificando si hay ventanas modales que cerrar...
+2025-07-04 02:52:47,620 - INFO - No se encontraron ventanas modales para cerrar.
+2025-07-04 02:52:48,892 - WARNING - No se pudo limpiar el campo de búsqueda: Message: element click intercepted: Element <div aria-autocomplete="list" aria-label="Cuadro de texto para ingresar la búsqueda" aria-owns="emoji-suggestion" class="x1hx0egp x6ikm8r x1odjw0f x6prxxf x1k6rcq7 x1whj5v" contenteditable="true" role="textbox" spellcheck="true" tabindex="3" aria-placeholder="Buscar un chat o iniciar uno nuevo" data-tab="3" data-lexical-editor="true" style="min-height: 1.47em; user-select: text; white-space: pre-wrap; word-break: break-word;">...</div> is not clickable at point (343, 83). Other element would receive the click: <div class="x9f619 x78zum5 xdt5ytf x6s0dn4 xl56j7k xh8yej3 x17q2evi x1jn0hjm x1us19tq" role="dialog">...</div>
+  (Session info: chrome=138.0.7204.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	GetHandleVerifier [0x0xc44553+62419]
+	GetHandleVerifier [0x0xc44594+62484]
+	(No symbol) [0x0xa82133]
+	(No symbol) [0x0xad0c40]
+	(No symbol) [0x0xaceffa]
+	(No symbol) [0x0xaccb57]
+	(No symbol) [0x0xacbe14]
+	(No symbol) [0x0xac05c5]
+	(No symbol) [0x0xaef46c]
+	(No symbol) [0x0xac0054]
+	(No symbol) [0x0xaef6e4]
+	(No symbol) [0x0xb1087a]
+	(No symbol) [0x0xaef266]
+	(No symbol) [0x0xabe852]
+	(No symbol) [0x0xabf6f4]
+	GetHandleVerifier [0x0xeb4833+2619059]
+	GetHandleVerifier [0x0xeafc4a+2599626]
+	GetHandleVerifier [0x0xc6b0fa+221050]
+	GetHandleVerifier [0x0xc5b378+156152]
+	GetHandleVerifier [0x0xc61d2d+183213]
+	GetHandleVerifier [0x0xc4c438+94904]
+	GetHandleVerifier [0x0xc4c5c2+95298]
+	GetHandleVerifier [0x0xc3771a+9626]
+	BaseThreadInitThunk [0x0x754c05c9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77627c5d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x77627c2d+189]
+
+2025-07-04 02:52:48,900 - ERROR - ❌ Fallo al enviar a Yami : No se pudo encontrar o seleccionar el contacto 5493757677080.
+2025-07-04 02:52:48,901 - INFO - ⏱️ Esperando 5 segundos para el próximo envío...
+2025-07-04 02:52:53,902 - INFO - 📨 Procesando 4/4: ggagag (5493757656653) ---
+2025-07-04 02:52:53,917 - INFO - Buscando contacto: 5493757656653
+2025-07-04 02:52:53,919 - INFO - Verificando si hay ventanas modales que cerrar...
+2025-07-04 02:52:57,080 - WARNING - 
+⚠️ Proceso interrumpido por el usuario.
+2025-07-04 03:01:05,639 - INFO - ==================================================
+2025-07-04 03:01:05,640 - INFO - === INICIANDO PROCESO DE NOTIFICACIONES DE VTV ===
+2025-07-04 03:01:05,641 - INFO - ==================================================
+2025-07-04 03:01:05,648 - INFO - 📊 Cargando datos desde 'datos_vtv.xlsx'...
+2025-07-04 03:01:06,133 - INFO - Detectando columnas del Excel...
+2025-07-04 03:01:06,133 - INFO - Columnas disponibles: ['NombreDelCliente', 'NumeroDeWhatsapp', 'Patente', 'FechaVencimientoVTV', 'ClienteAgente']
+2025-07-04 03:01:06,135 - INFO - ✓ NOMBRE: 'NombreDelCliente' (nombre exacto)
+2025-07-04 03:01:06,135 - INFO - ✓ TELEFONO: 'NumeroDeWhatsapp' (nombre exacto)
+2025-07-04 03:01:06,135 - INFO - ✓ PATENTE: 'Patente' (nombre exacto)
+2025-07-04 03:01:06,136 - INFO - ✓ FECHA_VENCIMIENTO: 'FechaVencimientoVTV' (nombre exacto)
+2025-07-04 03:01:06,136 - INFO - 🔄 Procesando datos...
+2025-07-04 03:01:06,145 - INFO - ✅ Datos cargados y procesados exitosamente: 6 registros.
+2025-07-04 03:01:06,146 - INFO - 🔍 Filtrando vencimientos entre 2025-07-04 y 2025-07-19 (15 días)
+2025-07-04 03:01:06,153 - INFO - 📋 Se encontraron 4 vencimientos próximos para notificar.
+2025-07-04 03:01:06,154 - INFO - 📄 Resumen de vencimientos:
+2025-07-04 03:01:06,155 - INFO -   - Juan Perez: AA31BB (vence 2025-07-13)
+2025-07-04 03:01:06,156 - INFO -   - Pedro: afaafa (vence 2025-07-08)
+2025-07-04 03:01:06,156 - INFO -   - Yami : AA31BB (vence 2025-07-05)
+2025-07-04 03:01:06,157 - INFO -   - ggagag: 52d3 (vence 2025-07-07)
+2025-07-04 03:01:07,979 - INFO - 🚀 Iniciando WhatsApp Web...
+2025-07-04 03:01:07,980 - INFO - Inicializando el driver de Chrome...
+2025-07-04 03:01:07,981 - INFO - ====== WebDriver manager ======
+2025-07-04 03:01:09,603 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 03:01:09,794 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 03:01:09,939 - INFO - Driver [C:\Users\Agus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-04 03:01:13,220 - INFO - Driver de Chrome inicializado correctamente.
+2025-07-04 03:01:13,222 - INFO - Accediendo a WhatsApp Web...
+2025-07-04 03:01:16,133 - INFO - Esperando autenticación. Escanea el código QR si es necesario.
+2025-07-04 03:01:26,048 - INFO - Sesión de WhatsApp ya activa.
+2025-07-04 03:01:26,059 - INFO - Verificando si hay ventanas modales que cerrar...
+2025-07-04 03:01:29,104 - INFO - Modal detectado usando role='dialog'
+2025-07-04 03:01:30,013 - INFO - Modal cerrado con clic normal usando selector 4
+2025-07-04 03:01:33,016 - INFO - Modal cerrado exitosamente
+2025-07-04 03:01:33,017 - INFO - 📤 Comenzando envío de 4 mensajes...
+2025-07-04 03:01:33,018 - INFO - 📨 Procesando 1/4: Juan Perez (5493757644623) ---
+2025-07-04 03:01:33,018 - INFO - Buscando contacto: 5493757644623
+2025-07-04 03:01:33,019 - INFO - Verificando si hay ventanas modales que cerrar...
+2025-07-04 03:01:41,245 - INFO - No se encontraron ventanas modales para cerrar.
+2025-07-04 03:01:41,245 - INFO - Verificando si hay ventanas modales que cerrar...
+2025-07-04 03:01:49,441 - INFO - No se encontraron ventanas modales para cerrar.
+2025-07-04 03:02:17,621 - INFO - Chat abierto correctamente para: 5493757644623
+2025-07-04 03:02:23,199 - INFO - Mensaje enviado correctamente.
+2025-07-04 03:02:23,200 - INFO - Verificando si hay ventanas modales que cerrar...
+2025-07-04 03:02:31,395 - INFO - No se encontraron ventanas modales para cerrar.
+2025-07-04 03:02:36,649 - INFO - ✅ Mensaje enviado exitosamente a Juan Perez
+2025-07-04 03:02:36,649 - INFO - ⏱️ Esperando 5 segundos para el próximo envío...
+2025-07-04 03:02:41,650 - INFO - 📨 Procesando 2/4: Pedro (5493757424242) ---
+2025-07-04 03:02:41,652 - INFO - Buscando contacto: 5493757424242
+2025-07-04 03:02:41,653 - INFO - Verificando si hay ventanas modales que cerrar...
+2025-07-04 03:02:49,825 - INFO - No se encontraron ventanas modales para cerrar.
+2025-07-04 03:02:49,826 - INFO - Verificando si hay ventanas modales que cerrar...
+2025-07-04 03:02:58,171 - INFO - No se encontraron ventanas modales para cerrar.
+2025-07-04 03:03:33,542 - WARNING - No se encontró contacto para: 5493757424242
+2025-07-04 03:03:33,543 - ERROR - ❌ Fallo al enviar a Pedro: No se pudo encontrar o seleccionar el contacto 5493757424242.
+2025-07-04 03:03:33,544 - INFO - ⏱️ Esperando 5 segundos para el próximo envío...
+2025-07-04 03:03:38,546 - INFO - 📨 Procesando 3/4: Yami  (5493757677080) ---
+2025-07-04 03:03:38,550 - INFO - Buscando contacto: 5493757677080
+2025-07-04 03:03:38,551 - INFO - Verificando si hay ventanas modales que cerrar...
+2025-07-04 03:03:47,061 - INFO - No se encontraron ventanas modales para cerrar.
+2025-07-04 03:03:47,062 - INFO - Verificando si hay ventanas modales que cerrar...
+2025-07-04 03:03:55,221 - INFO - No se encontraron ventanas modales para cerrar.
+2025-07-04 03:04:18,981 - WARNING - 
+⚠️ Proceso interrumpido por el usuario.
+2025-07-04 03:08:13,634 - INFO - ==================================================
+2025-07-04 03:08:13,635 - INFO - === INICIANDO PROCESO DE NOTIFICACIONES DE VTV ===
+2025-07-04 03:08:13,636 - INFO - ==================================================
+2025-07-04 03:08:13,645 - INFO - 📊 Cargando datos desde 'datos_vtv.xlsx'...
+2025-07-04 03:08:14,523 - INFO - Detectando columnas del Excel...
+2025-07-04 03:08:14,524 - INFO - Columnas disponibles: ['NombreDelCliente', 'NumeroDeWhatsapp', 'Patente', 'FechaVencimientoVTV', 'ClienteAgente']
+2025-07-04 03:08:14,525 - INFO - ✓ NOMBRE: 'NombreDelCliente' (nombre exacto)
+2025-07-04 03:08:14,525 - INFO - ✓ TELEFONO: 'NumeroDeWhatsapp' (nombre exacto)
+2025-07-04 03:08:14,526 - INFO - ✓ PATENTE: 'Patente' (nombre exacto)
+2025-07-04 03:08:14,526 - INFO - ✓ FECHA_VENCIMIENTO: 'FechaVencimientoVTV' (nombre exacto)
+2025-07-04 03:08:14,528 - INFO - 🔄 Procesando datos...
+2025-07-04 03:08:14,537 - INFO - ✅ Datos cargados y procesados exitosamente: 6 registros.
+2025-07-04 03:08:14,537 - INFO - 🔍 Filtrando vencimientos entre 2025-07-04 y 2025-07-19 (15 días)
+2025-07-04 03:08:14,545 - INFO - 📋 Se encontraron 4 vencimientos próximos para notificar.
+2025-07-04 03:08:14,546 - INFO - 📄 Resumen de vencimientos:
+2025-07-04 03:08:14,548 - INFO -   - Juan Perez: AA31BB (vence 2025-07-13)
+2025-07-04 03:08:14,549 - INFO -   - Pedro: afaafa (vence 2025-07-08)
+2025-07-04 03:08:14,549 - INFO -   - Yami : AA31BB (vence 2025-07-05)
+2025-07-04 03:08:14,550 - INFO -   - ggagag: 52d3 (vence 2025-07-07)
+2025-07-04 03:08:16,891 - INFO - 🚀 Iniciando WhatsApp Web...
+2025-07-04 03:08:16,892 - INFO - Inicializando el driver de Chrome...
+2025-07-04 03:08:16,893 - INFO - ====== WebDriver manager ======
+2025-07-04 03:08:18,525 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 03:08:18,658 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 03:08:18,804 - INFO - Driver [C:\Users\Agus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-04 03:08:21,498 - INFO - Driver de Chrome inicializado correctamente.
+2025-07-04 03:08:21,499 - INFO - Accediendo a WhatsApp Web...
+2025-07-04 03:08:24,578 - INFO - Esperando autenticación. Escanea el código QR si es necesario.
+2025-07-04 03:08:34,114 - INFO - Sesión de WhatsApp ya activa.
+2025-07-04 03:08:34,116 - INFO - Realizando verificación única de modales...
+2025-07-04 03:08:34,117 - INFO - Verificando si hay ventanas modales que cerrar...
+2025-07-04 03:08:42,390 - INFO - No se encontraron ventanas modales para cerrar.
+2025-07-04 03:08:42,391 - INFO - Verificación de modales completada. No se realizarán más verificaciones.
+2025-07-04 03:08:42,392 - INFO - 📤 Comenzando envío de 4 mensajes...
+2025-07-04 03:08:42,392 - INFO - 📨 Procesando 1/4: Juan Perez (5493757644623) ---
+2025-07-04 03:08:42,393 - INFO - Buscando contacto: 5493757644623
+2025-07-04 03:09:06,956 - INFO - Chat abierto correctamente para: 5493757644623
+2025-07-04 03:09:12,592 - INFO - Mensaje enviado correctamente.
+2025-07-04 03:09:15,909 - INFO - ✅ Mensaje enviado exitosamente a Juan Perez
+2025-07-04 03:09:15,910 - INFO - ⏱️ Esperando 5 segundos para el próximo envío...
+2025-07-04 03:09:20,912 - INFO - 📨 Procesando 2/4: Pedro (5493757424242) ---
+2025-07-04 03:09:20,913 - INFO - Buscando contacto: 5493757424242
+2025-07-04 03:09:55,250 - WARNING - No se encontró contacto para: 5493757424242
+2025-07-04 03:09:55,251 - ERROR - ❌ Fallo al enviar a Pedro: No se pudo encontrar o seleccionar el contacto 5493757424242.
+2025-07-04 03:09:55,252 - INFO - ⏱️ Esperando 5 segundos para el próximo envío...
+2025-07-04 03:10:00,253 - INFO - 📨 Procesando 3/4: Yami  (5493757677080) ---
+2025-07-04 03:10:00,275 - INFO - Buscando contacto: 5493757677080
+2025-07-04 03:10:33,660 - WARNING - No se encontró contacto para: 5493757677080
+2025-07-04 03:10:33,661 - ERROR - ❌ Fallo al enviar a Yami : No se pudo encontrar o seleccionar el contacto 5493757677080.
+2025-07-04 03:10:33,662 - INFO - ⏱️ Esperando 5 segundos para el próximo envío...
+2025-07-04 03:10:38,679 - INFO - 📨 Procesando 4/4: ggagag (5493757656653) ---
+2025-07-04 03:10:38,686 - INFO - Buscando contacto: 5493757656653
+2025-07-04 03:11:11,508 - WARNING - No se encontró contacto para: 5493757656653
+2025-07-04 03:11:11,510 - ERROR - ❌ Fallo al enviar a ggagag: No se pudo encontrar o seleccionar el contacto 5493757656653.
+2025-07-04 03:11:11,511 - INFO - 
+============================================================
+2025-07-04 03:11:11,511 - INFO - === PROCESO DE NOTIFICACIONES COMPLETADO ===
+2025-07-04 03:11:11,512 - INFO - 📊 Total de vencimientos a notificar: 4
+2025-07-04 03:11:11,513 - INFO - ✅ Mensajes enviados exitosamente: 1
+2025-07-04 03:11:11,513 - INFO - ❌ Mensajes fallidos: 3
+2025-07-04 03:11:11,513 - INFO - 📋 Contactos con fallo:
+2025-07-04 03:11:11,514 - INFO -   - Pedro: No se pudo encontrar o seleccionar el contacto 5493757424242.
+2025-07-04 03:11:11,515 - INFO -   - Yami : No se pudo encontrar o seleccionar el contacto 5493757677080.
+2025-07-04 03:11:11,517 - INFO -   - ggagag: No se pudo encontrar o seleccionar el contacto 5493757656653.
+2025-07-04 03:11:11,518 - INFO - ============================================================
+2025-07-04 03:11:11,519 - INFO - 📊 Generando reporte de envíos fallidos en 'reporte_fallidos.xlsx'...
+2025-07-04 03:11:11,551 - INFO - ✅ Reporte de fallidos generado exitosamente.
+2025-07-04 03:11:11,558 - INFO - Cerrando el navegador...
+2025-07-04 03:11:17,086 - INFO - 🎉 El script ha finalizado. Revisa el log y el reporte de fallidos si es necesario.
+2025-07-04 03:21:01,731 - INFO - ==================================================
+2025-07-04 03:21:01,732 - INFO - === INICIANDO PROCESO DE NOTIFICACIONES DE VTV ===
+2025-07-04 03:21:01,732 - INFO - ==================================================
+2025-07-04 03:21:01,741 - INFO - 📊 Cargando datos desde 'datos_vtv.xlsx'...
+2025-07-04 03:21:02,278 - INFO - Detectando columnas del Excel...
+2025-07-04 03:21:02,278 - INFO - Columnas disponibles: ['NombreDelCliente', 'NumeroDeWhatsapp', 'Patente', 'FechaVencimientoVTV', 'ClienteAgente']
+2025-07-04 03:21:02,280 - INFO - ✓ NOMBRE: 'NombreDelCliente' (nombre exacto)
+2025-07-04 03:21:02,280 - INFO - ✓ TELEFONO: 'NumeroDeWhatsapp' (nombre exacto)
+2025-07-04 03:21:02,280 - INFO - ✓ PATENTE: 'Patente' (nombre exacto)
+2025-07-04 03:21:02,281 - INFO - ✓ FECHA_VENCIMIENTO: 'FechaVencimientoVTV' (nombre exacto)
+2025-07-04 03:21:02,282 - INFO - 🔄 Procesando datos...
+2025-07-04 03:21:02,290 - INFO - ✅ Datos cargados y procesados exitosamente: 6 registros.
+2025-07-04 03:21:02,291 - INFO - 🔍 Filtrando vencimientos:
+2025-07-04 03:21:02,291 - INFO -   - VTV vencidas desde: 2025-05-05
+2025-07-04 03:21:02,292 - INFO -   - Fecha actual: 2025-07-04
+2025-07-04 03:21:02,292 - INFO -   - VTV por vencer hasta: 2025-07-19 (15 días)
+2025-07-04 03:21:02,305 - CRITICAL - ❌ Error crítico al procesar datos: Can only use .dt accessor with datetimelike values
+2025-07-04 03:22:41,404 - INFO - ==================================================
+2025-07-04 03:22:41,405 - INFO - === INICIANDO PROCESO DE NOTIFICACIONES DE VTV ===
+2025-07-04 03:22:41,405 - INFO - ==================================================
+2025-07-04 03:22:41,412 - INFO - 📊 Cargando datos desde 'datos_vtv.xlsx'...
+2025-07-04 03:22:41,841 - INFO - Detectando columnas del Excel...
+2025-07-04 03:22:41,842 - INFO - Columnas disponibles: ['NombreDelCliente', 'NumeroDeWhatsapp', 'Patente', 'FechaVencimientoVTV', 'ClienteAgente']
+2025-07-04 03:22:41,843 - INFO - ✓ NOMBRE: 'NombreDelCliente' (nombre exacto)
+2025-07-04 03:22:41,843 - INFO - ✓ TELEFONO: 'NumeroDeWhatsapp' (nombre exacto)
+2025-07-04 03:22:41,844 - INFO - ✓ PATENTE: 'Patente' (nombre exacto)
+2025-07-04 03:22:41,844 - INFO - ✓ FECHA_VENCIMIENTO: 'FechaVencimientoVTV' (nombre exacto)
+2025-07-04 03:22:41,844 - INFO - 🔄 Procesando datos...
+2025-07-04 03:22:41,852 - INFO - ✅ Datos cargados y procesados exitosamente: 6 registros.
+2025-07-04 03:22:41,852 - INFO - 🔍 Filtrando vencimientos:
+2025-07-04 03:22:41,853 - INFO -   - VTV vencidas desde: 2025-05-05
+2025-07-04 03:22:41,853 - INFO -   - Fecha actual: 2025-07-04
+2025-07-04 03:22:41,854 - INFO -   - VTV por vencer hasta: 2025-07-19 (15 días)
+2025-07-04 03:22:41,862 - CRITICAL - ❌ Error crítico al procesar datos: Can only use .dt accessor with datetimelike values
+2025-07-04 03:24:42,797 - INFO - ==================================================
+2025-07-04 03:24:42,799 - INFO - === INICIANDO PROCESO DE NOTIFICACIONES DE VTV ===
+2025-07-04 03:24:42,800 - INFO - ==================================================
+2025-07-04 03:24:42,807 - INFO - 📊 Cargando datos desde 'datos_vtv.xlsx'...
+2025-07-04 03:24:43,236 - INFO - Detectando columnas del Excel...
+2025-07-04 03:24:43,237 - INFO - Columnas disponibles: ['NombreDelCliente', 'NumeroDeWhatsapp', 'Patente', 'FechaVencimientoVTV', 'ClienteAgente']
+2025-07-04 03:24:43,238 - INFO - ✓ NOMBRE: 'NombreDelCliente' (nombre exacto)
+2025-07-04 03:24:43,238 - INFO - ✓ TELEFONO: 'NumeroDeWhatsapp' (nombre exacto)
+2025-07-04 03:24:43,239 - INFO - ✓ PATENTE: 'Patente' (nombre exacto)
+2025-07-04 03:24:43,239 - INFO - ✓ FECHA_VENCIMIENTO: 'FechaVencimientoVTV' (nombre exacto)
+2025-07-04 03:24:43,240 - INFO - 🔄 Procesando datos...
+2025-07-04 03:24:43,244 - INFO - ✓ Fechas convertidas con formato: %d/%m/%Y
+2025-07-04 03:24:43,250 - INFO - ✅ Datos cargados y procesados exitosamente: 6 registros.
+2025-07-04 03:24:43,251 - INFO - 🔍 Filtrando vencimientos:
+2025-07-04 03:24:43,252 - INFO -   - VTV vencidas desde: 2025-05-05
+2025-07-04 03:24:43,252 - INFO -   - Fecha actual: 2025-07-04
+2025-07-04 03:24:43,253 - INFO -   - VTV por vencer hasta: 2025-07-19 (15 días)
+2025-07-04 03:24:43,276 - INFO - 📋 Resultados encontrados:
+2025-07-04 03:24:43,276 - INFO -   - VTV vencidas: 1
+2025-07-04 03:24:43,277 - INFO -   - VTV próximas a vencer: 4
+2025-07-04 03:24:43,277 - INFO -   - Total a notificar: 5
+2025-07-04 03:24:43,278 - INFO - 📄 VTV VENCIDAS:
+2025-07-04 03:24:43,279 - INFO -   - Jose : BB33BB (vencida hace 22 días)
+2025-07-04 03:24:43,279 - INFO - 📄 VTV PRÓXIMAS A VENCER:
+2025-07-04 03:24:43,280 - INFO -   - Juan Perez: AA31BB (vence 2025-07-13)
+2025-07-04 03:24:43,281 - INFO -   - Pedro: afaafa (vence 2025-07-08)
+2025-07-04 03:24:43,282 - INFO -   - Yami : AA31BB (vence 2025-07-05)
+2025-07-04 03:24:43,287 - INFO -   - ggagag: 52d3 (vence 2025-07-07)
+2025-07-04 03:25:05,432 - INFO - 🚀 Iniciando WhatsApp Web...
+2025-07-04 03:25:05,433 - INFO - Inicializando el driver de Chrome...
+2025-07-04 03:25:05,433 - INFO - ====== WebDriver manager ======
+2025-07-04 03:25:07,144 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 03:25:07,331 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 03:25:07,467 - INFO - Driver [C:\Users\Agus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-04 03:25:11,294 - INFO - Driver de Chrome inicializado correctamente.
+2025-07-04 03:25:11,295 - INFO - Accediendo a WhatsApp Web...
+2025-07-04 03:25:13,616 - INFO - Esperando autenticación. Escanea el código QR si es necesario.
+2025-07-04 03:25:24,502 - INFO - Sesión de WhatsApp ya activa.
+2025-07-04 03:25:24,506 - INFO - Realizando verificación única de modales...
+2025-07-04 03:25:24,508 - INFO - Verificando si hay ventanas modales que cerrar...
+2025-07-04 03:25:32,793 - INFO - No se encontraron ventanas modales para cerrar.
+2025-07-04 03:25:32,811 - INFO - Verificación de modales completada. No se realizarán más verificaciones.
+2025-07-04 03:25:32,812 - INFO - 📤 Comenzando envío de 5 mensajes...
+2025-07-04 03:25:32,813 - INFO - 📨 Procesando 1/5: Juan Perez (5493757644623) - Por vencer ---
+2025-07-04 03:25:32,872 - INFO - 📝 Enviando mensaje de VTV PRÓXIMA A VENCER
+2025-07-04 03:25:32,873 - INFO - Buscando contacto: 5493757644623
+2025-07-04 03:25:57,929 - INFO - Chat abierto correctamente para: 5493757644623
+2025-07-04 03:26:03,530 - INFO - Mensaje enviado correctamente.
+2025-07-04 03:26:06,885 - INFO - ✅ Mensaje enviado exitosamente a Juan Perez
+2025-07-04 03:26:06,886 - INFO - ⏱️ Esperando 5 segundos para el próximo envío...
+2025-07-04 03:26:11,887 - INFO - 📨 Procesando 2/5: Pedro (5493757424242) - Por vencer ---
+2025-07-04 03:26:11,888 - INFO - 📝 Enviando mensaje de VTV PRÓXIMA A VENCER
+2025-07-04 03:26:11,889 - INFO - Buscando contacto: 5493757424242
+2025-07-04 03:26:44,533 - WARNING - No se encontró contacto para: 5493757424242
+2025-07-04 03:26:44,534 - ERROR - ❌ Fallo al enviar a Pedro: No se pudo encontrar o seleccionar el contacto 5493757424242.
+2025-07-04 03:26:44,535 - INFO - ⏱️ Esperando 5 segundos para el próximo envío...
+2025-07-04 03:26:49,536 - INFO - 📨 Procesando 3/5: Yami  (5493757677080) - Por vencer ---
+2025-07-04 03:26:49,536 - INFO - 📝 Enviando mensaje de VTV PRÓXIMA A VENCER
+2025-07-04 03:26:49,537 - INFO - Buscando contacto: 5493757677080
+2025-07-04 03:27:24,199 - WARNING - No se encontró contacto para: 5493757677080
+2025-07-04 03:27:24,200 - ERROR - ❌ Fallo al enviar a Yami : No se pudo encontrar o seleccionar el contacto 5493757677080.
+2025-07-04 03:27:24,201 - INFO - ⏱️ Esperando 5 segundos para el próximo envío...
+2025-07-04 03:27:29,202 - INFO - 📨 Procesando 4/5: ggagag (5493757656653) - Por vencer ---
+2025-07-04 03:27:29,203 - INFO - 📝 Enviando mensaje de VTV PRÓXIMA A VENCER
+2025-07-04 03:27:29,203 - INFO - Buscando contacto: 5493757656653
+2025-07-04 03:28:01,453 - WARNING - No se encontró contacto para: 5493757656653
+2025-07-04 03:28:01,454 - ERROR - ❌ Fallo al enviar a ggagag: No se pudo encontrar o seleccionar el contacto 5493757656653.
+2025-07-04 03:28:01,454 - INFO - ⏱️ Esperando 5 segundos para el próximo envío...
+2025-07-04 03:28:06,455 - INFO - 📨 Procesando 5/5: Jose  (5493757644623) - VENCIDA ---
+2025-07-04 03:28:06,456 - INFO - 📝 Enviando mensaje de VTV VENCIDA
+2025-07-04 03:28:06,457 - INFO - Buscando contacto: 5493757644623
+2025-07-04 03:28:31,644 - INFO - Chat abierto correctamente para: 5493757644623
+2025-07-04 03:28:37,407 - INFO - Mensaje enviado correctamente.
+2025-07-04 03:28:41,252 - INFO - ✅ Mensaje enviado exitosamente a Jose 
+2025-07-04 03:28:41,278 - INFO - 
+============================================================
+2025-07-04 03:28:41,286 - INFO - === PROCESO DE NOTIFICACIONES COMPLETADO ===
+2025-07-04 03:28:41,287 - INFO - 📊 Total de vencimientos a notificar: 5
+2025-07-04 03:28:41,287 - INFO - ✅ Mensajes enviados exitosamente: 2
+2025-07-04 03:28:41,288 - INFO - ❌ Mensajes fallidos: 3
+2025-07-04 03:28:41,288 - INFO - 📋 Contactos con fallo:
+2025-07-04 03:28:41,289 - INFO -   - Pedro: No se pudo encontrar o seleccionar el contacto 5493757424242.
+2025-07-04 03:28:41,290 - INFO -   - Yami : No se pudo encontrar o seleccionar el contacto 5493757677080.
+2025-07-04 03:28:41,290 - INFO -   - ggagag: No se pudo encontrar o seleccionar el contacto 5493757656653.
+2025-07-04 03:28:41,291 - INFO - ============================================================
+2025-07-04 03:28:41,294 - INFO - 📊 Generando reporte de envíos fallidos en 'reporte_fallidos.xlsx'...
+2025-07-04 03:28:41,409 - INFO - ✅ Reporte de fallidos generado exitosamente.
+2025-07-04 03:28:41,412 - INFO - Cerrando el navegador...
+2025-07-04 03:28:46,893 - INFO - 🎉 El script ha finalizado. Revisa el log y el reporte de fallidos si es necesario.
+2025-07-04 03:40:38,617 - INFO - ==================================================
+2025-07-04 03:40:38,618 - INFO - === INICIANDO PROCESO DE NOTIFICACIONES DE VTV ===
+2025-07-04 03:40:38,619 - INFO - ==================================================
+2025-07-04 03:40:38,627 - INFO - 📊 Cargando datos desde 'datos_vtv.xlsx'...
+2025-07-04 03:40:39,116 - INFO - Detectando columnas del Excel...
+2025-07-04 03:40:39,117 - INFO - Columnas disponibles: ['NombreDelCliente', 'NumeroDeWhatsapp', 'Patente', 'FechaVencimientoVTV', 'ClienteAgente']
+2025-07-04 03:40:39,117 - INFO - ✓ NOMBRE: 'NombreDelCliente' (nombre exacto)
+2025-07-04 03:40:39,118 - INFO - ✓ TELEFONO: 'NumeroDeWhatsapp' (nombre exacto)
+2025-07-04 03:40:39,118 - INFO - ✓ PATENTE: 'Patente' (nombre exacto)
+2025-07-04 03:40:39,119 - INFO - ✓ FECHA_VENCIMIENTO: 'FechaVencimientoVTV' (nombre exacto)
+2025-07-04 03:40:39,119 - INFO - 🔄 Procesando datos...
+2025-07-04 03:40:39,125 - INFO - ✓ Fechas convertidas con formato: %d/%m/%Y
+2025-07-04 03:40:39,131 - INFO - ✅ Datos cargados y procesados exitosamente: 6 registros.
+2025-07-04 03:40:39,132 - INFO - 🔍 Filtrando vencimientos:
+2025-07-04 03:40:39,132 - INFO -   - VTV vencidas desde: 2025-05-05
+2025-07-04 03:40:39,133 - INFO -   - Fecha actual: 2025-07-04
+2025-07-04 03:40:39,133 - INFO -   - VTV por vencer hasta: 2025-07-19 (15 días)
+2025-07-04 03:40:39,144 - INFO - 📋 Resultados encontrados:
+2025-07-04 03:40:39,145 - INFO -   - VTV vencidas: 1
+2025-07-04 03:40:39,145 - INFO -   - VTV próximas a vencer: 4
+2025-07-04 03:40:39,145 - INFO -   - Total a notificar: 5
+2025-07-04 03:40:39,146 - INFO - 📄 VTV VENCIDAS:
+2025-07-04 03:40:39,147 - INFO -   - Jose : BB33BB (vencida hace 22 días)
+2025-07-04 03:40:39,148 - INFO - 📄 VTV PRÓXIMAS A VENCER:
+2025-07-04 03:40:39,149 - INFO -   - Juan Perez: AA31BB (vence 2025-07-13)
+2025-07-04 03:40:39,150 - INFO -   - Pedro: afaafa (vence 2025-07-08)
+2025-07-04 03:40:39,150 - INFO -   - Yami : AA31BB (vence 2025-07-05)
+2025-07-04 03:40:39,151 - INFO -   - ggagag: 52d3 (vence 2025-07-07)
+2025-07-04 03:40:41,144 - INFO - 🚀 Iniciando WhatsApp Web...
+2025-07-04 03:40:41,145 - INFO - Inicializando el driver de Chrome...
+2025-07-04 03:40:41,146 - INFO - ====== WebDriver manager ======
+2025-07-04 03:40:43,012 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 03:40:43,168 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 03:40:43,318 - INFO - Driver [C:\Users\Agus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-04 03:40:48,339 - INFO - Driver de Chrome inicializado correctamente.
+2025-07-04 03:40:48,343 - INFO - Accediendo a WhatsApp Web...
+2025-07-04 03:41:05,502 - INFO - Esperando autenticación. Escanea el código QR si es necesario.
+2025-07-04 03:41:16,313 - ERROR - Error al inicializar WhatsApp: Message: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=138.0.7204.97)
+Stacktrace:
+	GetHandleVerifier [0x0x1614553+62419]
+	GetHandleVerifier [0x0x1614594+62484]
+	(No symbol) [0x0x1451f90]
+	(No symbol) [0x0x1442b80]
+	(No symbol) [0x0x1441cf1]
+	(No symbol) [0x0x145f912]
+	(No symbol) [0x0x145ec48]
+	(No symbol) [0x0x14e0789]
+	(No symbol) [0x0x14bf266]
+	(No symbol) [0x0x148e852]
+	(No symbol) [0x0x148f6f4]
+	GetHandleVerifier [0x0x1884833+2619059]
+	GetHandleVerifier [0x0x187fc4a+2599626]
+	GetHandleVerifier [0x0x163b0fa+221050]
+	GetHandleVerifier [0x0x162b378+156152]
+	GetHandleVerifier [0x0x1631d2d+183213]
+	GetHandleVerifier [0x0x161c438+94904]
+	GetHandleVerifier [0x0x161c5c2+95298]
+	GetHandleVerifier [0x0x160771a+9626]
+	BaseThreadInitThunk [0x0x754c05c9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77627c5d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x77627c2d+189]
+
+2025-07-04 03:41:16,365 - INFO - Cerrando el navegador...

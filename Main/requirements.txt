@@ -1,0 +1,8 @@
+pandas
+python-dotenv
+selenium
+webdriver-manager
+openpyxl
+
+#pip install -r requirements.txt 
+#para instalar las dependencias
