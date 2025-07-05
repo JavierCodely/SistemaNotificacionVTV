@@ -435,9 +435,335 @@ class WhatsAppNotifier:
             logger.error(f"Error al enviar mensaje: {str(e)}")
             return False
 
+    def _verificar_contacto_correcto(self, numero_esperado: str) -> bool:
+        """
+        Verifica que el chat abierto corresponde al número esperado.
+        Versión mejorada con más selectores y métodos de verificación.
+        
+        Args:
+            numero_esperado (str): Número que se espera que esté abierto.
+            
+        Returns:
+            bool: True si el contacto es correcto, False en caso contrario.
+        """
+        try:
+            logger.info(f"Verificando que el chat abierto corresponde a: {numero_esperado}")
+            
+            # Limpiar el número esperado (quitar espacios, guiones, etc.)
+            numero_limpio = ''.join(filter(str.isdigit, numero_esperado))
+            
+            # Esperar a que el chat se cargue completamente
+            time.sleep(2)
+            
+            # Método 1: Verificar el header del chat
+            contacto_verificado = self._verificar_header_chat(numero_limpio)
+            
+            if contacto_verificado:
+                return True
+                
+            # Método 2: Verificar información del contacto mediante clic en el header
+            contacto_verificado = self._verificar_info_contacto(numero_limpio)
+            
+            if contacto_verificado:
+                return True
+                
+            # Método 3: Verificar URL del chat
+            contacto_verificado = self._verificar_url_chat(numero_limpio)
+            
+            if contacto_verificado:
+                return True
+                
+            # Método 4: Verificar mediante atributos data-* y aria-*
+            contacto_verificado = self._verificar_atributos_chat(numero_limpio)
+            
+            if contacto_verificado:
+                return True
+                
+            logger.warning(f"⚠️ No se pudo verificar que el chat corresponde a: {numero_esperado}")
+            
+            # Log adicional para debug
+            self._log_debug_info()
+            
+            return False
+            
+        except Exception as e:
+            logger.error(f"Error al verificar contacto: {str(e)}")
+            return False
+
+    def _verificar_header_chat(self, numero_limpio: str) -> bool:
+        """Verifica el contacto usando el header del chat."""
+        try:
+            # Selectores actualizados para el header del chat
+            selectores_header = [
+                # Selectores más específicos primero
+                "//header[@data-testid='conversation-header']//span",
+                "//div[@data-testid='conversation-header']//span",
+                "//header//div[contains(@class, 'chat-title')]//span",
+                "//div[@data-testid='conversation-panel-header']//span",
+                
+                # Selectores más generales
+                "//header//span[@title]",
+                "//header//span[contains(@class, 'ggj6brxn')]",
+                "//div[contains(@class, 'zoWT4')]//span[contains(@class, 'ggj6brxn')]",
+                "//div[contains(@class, 'chat-title')]//span",
+                "//header//span[contains(@dir, 'auto')]",
+                "//header//span[text()]",
+                
+                # Selectores alternativos
+                "//div[@role='button']//span[contains(@class, 'ggj6brxn')]",
+                "//div[@data-testid='cell-frame-title']//span",
+                "//div[contains(@class, 'chat-header')]//span",
+            ]
+            
+            for i, selector in enumerate(selectores_header):
+                try:
+                    logger.debug(f"Verificando header con selector {i+1}: {selector}")
+                    
+                    elementos = self.driver.find_elements(By.XPATH, selector)
+                    
+                    for elemento in elementos:
+                        try:
+                            if not elemento.is_displayed():
+                                continue
+                                
+                            # Obtener texto del elemento
+                            texto = elemento.get_attribute('innerText') or ''
+                            titulo = elemento.get_attribute('title') or ''
+                            aria_label = elemento.get_attribute('aria-label') or ''
+                            
+                            # Buscar números en el texto
+                            texto_completo = f"{texto} {titulo} {aria_label}".strip()
+                            numeros_encontrados = ''.join(filter(str.isdigit, texto_completo))
+                            
+                            logger.debug(f"Texto encontrado: '{texto_completo}'")
+                            logger.debug(f"Números extraídos: '{numeros_encontrados}'")
+                            
+                            # Verificar coincidencia
+                            if self._verificar_coincidencia_numeros(numero_limpio, numeros_encontrados):
+                                logger.info(f"✓ Contacto verificado por header: {texto_completo}")
+                                return True
+                                
+                        except Exception as e:
+                            logger.debug(f"Error al procesar elemento del header: {e}")
+                            continue
+                            
+                except Exception as e:
+                    logger.debug(f"Error con selector header {i+1}: {e}")
+                    continue
+                    
+            return False
+            
+        except Exception as e:
+            logger.debug(f"Error en verificación de header: {e}")
+            return False
+
+    def _verificar_info_contacto(self, numero_limpio: str) -> bool:
+        """Verifica el contacto haciendo clic en la información del contacto."""
+        try:
+            logger.debug("Intentando verificar mediante información del contacto")
+            
+            # Selectores para hacer clic en el header y abrir info del contacto
+            selectores_header_click = [
+                "//header[@data-testid='conversation-header']",
+                "//div[@data-testid='conversation-header']",
+                "//header//div[contains(@class, 'chat-title')]",
+                "//div[@data-testid='conversation-panel-header']",
+                "//header//span[contains(@class, 'ggj6brxn')]",
+            ]
+            
+            for selector in selectores_header_click:
+                try:
+                    header_element = self.driver.find_element(By.XPATH, selector)
+                    if header_element.is_displayed():
+                        # Hacer clic en el header
+                        header_element.click()
+                        time.sleep(1)
+                        
+                        # Buscar información del contacto en el panel que se abre
+                        selectores_info = [
+                            "//div[contains(@class, 'contact-info')]//span",
+                            "//div[@data-testid='drawer-right']//span",
+                            "//div[contains(@class, 'drawer')]//span",
+                            "//div[contains(@class, 'panel-right')]//span",
+                            "//*[contains(text(), '+')]",
+                        ]
+                        
+                        for info_selector in selectores_info:
+                            try:
+                                info_elements = self.driver.find_elements(By.XPATH, info_selector)
+                                for info_element in info_elements:
+                                    texto = info_element.get_attribute('innerText') or ''
+                                    numeros = ''.join(filter(str.isdigit, texto))
+                                    
+                                    if self._verificar_coincidencia_numeros(numero_limpio, numeros):
+                                        logger.info(f"✓ Contacto verificado por info del contacto: {texto}")
+                                        
+                                        # Cerrar el panel de información
+                                        self.driver.find_element(By.TAG_NAME, 'body').send_keys(Keys.ESCAPE)
+                                        time.sleep(0.5)
+                                        
+                                        return True
+                                        
+                            except Exception:
+                                continue
+                        
+                        # Cerrar el panel de información si se abrió
+                        self.driver.find_element(By.TAG_NAME, 'body').send_keys(Keys.ESCAPE)
+                        time.sleep(0.5)
+                        break
+                        
+                except Exception:
+                    continue
+                    
+            return False
+            
+        except Exception as e:
+            logger.debug(f"Error en verificación de info del contacto: {e}")
+            return False
+
+    def _verificar_url_chat(self, numero_limpio: str) -> bool:
+        """Verifica el contacto usando la URL del chat."""
+        try:
+            logger.debug("Verificando mediante URL del chat")
+            
+            url_actual = self.driver.current_url
+            logger.debug(f"URL actual: {url_actual}")
+            
+            # Extraer números de la URL
+            numeros_url = ''.join(filter(str.isdigit, url_actual))
+            
+            if self._verificar_coincidencia_numeros(numero_limpio, numeros_url):
+                logger.info(f"✓ Contacto verificado por URL: {url_actual}")
+                return True
+                
+            return False
+            
+        except Exception as e:
+            logger.debug(f"Error en verificación de URL: {e}")
+            return False
+
+    def _verificar_atributos_chat(self, numero_limpio: str) -> bool:
+        """Verifica el contacto usando atributos data-* y aria-*."""
+        try:
+            logger.debug("Verificando mediante atributos del chat")
+            
+            # Buscar elementos con atributos que puedan contener el número
+            selectores_atributos = [
+                "//*[@data-id]",
+                "//*[@aria-label]",
+                "//*[@data-testid]",
+                "//*[@data-phone]",
+                "//*[@data-number]",
+            ]
+            
+            for selector in selectores_atributos:
+                try:
+                    elementos = self.driver.find_elements(By.XPATH, selector)
+                    
+                    for elemento in elementos:
+                        try:
+                            # Revisar diferentes atributos
+                            atributos = ['data-id', 'aria-label', 'data-testid', 'data-phone', 'data-number']
+                            
+                            for atributo in atributos:
+                                valor = elemento.get_attribute(atributo) or ''
+                                numeros = ''.join(filter(str.isdigit, valor))
+                                
+                                if numeros and self._verificar_coincidencia_numeros(numero_limpio, numeros):
+                                    logger.info(f"✓ Contacto verificado por atributo {atributo}: {valor}")
+                                    return True
+                                    
+                        except Exception:
+                            continue
+                            
+                except Exception:
+                    continue
+                    
+            return False
+            
+        except Exception as e:
+            logger.debug(f"Error en verificación de atributos: {e}")
+            return False
+
+    def _verificar_coincidencia_numeros(self, numero_esperado: str, numero_encontrado: str) -> bool:
+        """Verifica si dos números coinciden usando diferentes criterios."""
+        try:
+            if not numero_esperado or not numero_encontrado:
+                return False
+                
+            # Criterio 1: Coincidencia exacta
+            if numero_esperado == numero_encontrado:
+                return True
+                
+            # Criterio 2: Uno contiene al otro
+            if numero_esperado in numero_encontrado or numero_encontrado in numero_esperado:
+                return True
+                
+            # Criterio 3: Coincidencia de los últimos 8 dígitos
+            if len(numero_esperado) >= 8 and len(numero_encontrado) >= 8:
+                if numero_esperado[-8:] == numero_encontrado[-8:]:
+                    return True
+                    
+            # Criterio 4: Coincidencia de los últimos 10 dígitos (sin código país)
+            if len(numero_esperado) >= 10 and len(numero_encontrado) >= 10:
+                if numero_esperado[-10:] == numero_encontrado[-10:]:
+                    return True
+                    
+            # Criterio 5: Verificar si el número esperado está al final del encontrado
+            if numero_encontrado.endswith(numero_esperado):
+                return True
+                
+            return False
+            
+        except Exception as e:
+            logger.debug(f"Error en verificación de coincidencia: {e}")
+            return False
+
+    def _log_debug_info(self):
+        """Log información adicional para debug."""
+        try:
+            logger.debug("=== DEBUG INFO ===")
+            
+            # Log URL actual
+            url_actual = self.driver.current_url
+            logger.debug(f"URL actual: {url_actual}")
+            
+            # Log título de la página
+            titulo = self.driver.title
+            logger.debug(f"Título: {titulo}")
+            
+            # Log algunos elementos del header
+            try:
+                header_elements = self.driver.find_elements(By.TAG_NAME, "header")
+                for i, header in enumerate(header_elements):
+                    text = header.get_attribute('innerText') or ''
+                    if text.strip():
+                        logger.debug(f"Header {i+1}: {text[:100]}...")
+            except Exception:
+                pass
+                
+            # Log algunos spans visibles
+            try:
+                spans = self.driver.find_elements(By.TAG_NAME, "span")
+                span_count = 0
+                for span in spans:
+                    if span.is_displayed():
+                        text = span.get_attribute('innerText') or ''
+                        if text.strip() and any(c.isdigit() for c in text):
+                            logger.debug(f"Span con números: {text}")
+                            span_count += 1
+                            if span_count >= 5:  # Limitar cantidad de logs
+                                break
+            except Exception:
+                pass
+                
+            logger.debug("=== END DEBUG INFO ===")
+            
+        except Exception as e:
+            logger.debug(f"Error en debug info: {e}")
     def enviar_notificacion(self, numero: str, mensaje: str) -> tuple[bool, str]:
         """
-        Orquesta el proceso completo: buscar contacto y enviar mensaje.
+        Orquesta el proceso completo: buscar contacto, verificar y enviar mensaje.
 
         Args:
             numero (str): Número de teléfono del destinatario.
@@ -449,7 +775,15 @@ class WhatsAppNotifier:
         if not self._buscar_contacto(numero):
             return False, f"No se pudo encontrar o seleccionar el contacto {numero}."
         
-        time.sleep(1)  # Pequeña pausa entre la selección y el envío
+        time.sleep(1)  # Pequeña pausa entre la selección y la verificación
+
+        # NUEVA VERIFICACIÓN: Confirmar que el chat correcto está abierto
+        if not self._verificar_contacto_correcto(numero):
+            logger.error(f"El chat abierto NO corresponde al número esperado: {numero}")
+            self._limpiar_campo_busqueda()  # Limpiar búsqueda
+            return False, f"El chat abierto no corresponde al número {numero}. Envío cancelado por seguridad."
+
+        time.sleep(0.5)  # Pequeña pausa entre la verificación y el envío
 
         if not self._enviar_mensaje(mensaje):
             return False, f"Fallo al enviar el mensaje a {numero}."
